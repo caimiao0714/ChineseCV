@@ -16,10 +16,11 @@
 \usepackage{fontspec} 
 \usepackage[UTF8]{ctex}
 \usepackage{epigraph}
+\usepackage{titlesec}
 
 % DOCUMENT LAYOUT
 \usepackage{geometry} 
-\geometry{a4paper, textwidth=5.5in, textheight=8.5in, marginparsep=7pt, marginparwidth=.6in}
+\geometry{a4paper, textwidth=5.5in, textheight=9in, marginparsep=7pt, marginparwidth=.6in}
 \setlength\parindent{0in}
 
 % FONTS
@@ -37,6 +38,10 @@
   BoldItalicFont=LinLibertine_RBI.otf
 ]{LinLibertine_R.otf}
 \setmonofont[Scale=0.8]{DejaVuSansMono.ttf}
+%\setCJKmainfont[BoldFont={MacFZXBSGBK.ttf}, ItalicFont={MacFZXBSGBK.ttf}, BoldItalicFont={MacFZXBSGBK.ttf}]{MacFZXBSGBK.ttf}
+%\setCJKsansfont{MacFZXBSGBK.ttf}
+%\setCJKmonofont{MacFZXBSGBK.ttf}
+
 
 % ---- CUSTOM COMMANDS
 \chardef\&="E050
@@ -53,10 +58,17 @@
 
 % HEADINGS
 \usepackage{sectsty} 
-\usepackage[normalem]{ulem} 
-\sectionfont{\mdseries\upshape\Large}
-\subsectionfont{\mdseries\scshape\normalsize} 
-\subsubsectionfont{\mdseries\upshape\large} 
+\usepackage[normalem]{ulem}
+% SET FONTS
+\setCJKfamilyfont{MyCJKfzxbs}{FZXiaoBiaoSong-B05S} %方正小标宋简体
+\newcommand{\fzxbs}{\CJKfamily{MyCJKfzxbs}}
+
+\sectionfont{\fzxbs\bfseries\upshape\Large}
+\subsectionfont{\fzxbs\bfseries\scshape\normalsize} 
+\subsubsectionfont{\fzxbs\bfseries\upshape\large} 
+%\titleformat{\section}[block]{\LARGE\bfseries}{Sec.\arabic{section}}{1em}{Hello: }[]
+%\titleformat{\subsection}[block]{\Large\itshape\mdseries}{\arabic{section}.\arabic{subsection}}{1em}{}[]
+
 
 % PDF SETUP
 % ---- FILL IN HERE THE DOC TITLE AND AUTHOR
@@ -69,25 +81,27 @@ bookmarks, colorlinks, breaklinks,
 ]{hyperref}  
 \hypersetup{linkcolor=blue,citecolor=blue,filecolor=black,urlcolor=MidnightBlue} 
 
+
+
 % DOCUMENT
 \begin{document}
-{\LARGE 蔡苗}\\[.7cm]
-博士研究生（生物统计方向）\\
+{\LARGE {\fzxbs 蔡苗}}\\[.35cm]
+生物统计学博士研究生（三年级）\\
 美国圣路易斯大学，公共卫生与社会正义学院，流行病与生物统计系\\
 3545 Lafayette Ave., Room 484, Saint Louis, MO 63108
-U.S.A.\\[.2cm]
-联系电话: +1(314)-326-8418\\
+U.S.A.\\[.3cm]
+联系电话: +$1(314)$-$326$-$8418$\\
 电子邮箱: \href{mailto:miao.cai@slu.edu}{miao.cai@slu.edu}\\
+个人网站: \href{caimiao0714.com}{caimiao0714.com}\\
 相关网站: 
 \href{https://github.com/caimiao0714}{GitHub},
-\href{https://orcid.org/0000-0003-0170-6905}{ORCID}, \href{https://scholar.google.com/citations?user=kjFCzEkAAAAJ&hl=en}{Google Scholar}, \href{https://www.researchgate.net/profile/Miao_Cai2}{ResearchGate}, \href{https://www.linkedin.com/in/miao-cai-7b5a62a3/}{LinkedIn}, \href{https://www.scopus.com/authid/detail.uri?authorId=56824998300}{Scopus}
-
-出生日期: 1993年7月14日---中国湖北省武汉市\\
-
-
+\href{https://orcid.org/0000-0003-0170-6905}{ORCID}, \href{https://scholar.google.com/citations?user=kjFCzEkAAAAJ&hl=en}{Google Scholar}, \href{https://www.researchgate.net/profile/Miao_Cai2}{ResearchGate}, \href{https://www.linkedin.com/in/miao-cai-7b5a62a3/}{LinkedIn}, \href{https://www.scopus.com/authid/detail.uri?authorId=56824998300}{Scopus}\\
+出生日期: $1993$年$7$月$14$日---中国湖北省武汉市\\
 \hrule
+
+
 \section*{研究领域}
-贝叶斯统计, 临床流行病学， 健康经济学
+贝叶斯统计, 可靠性理论， 临床流行病学， 健康经济学， 因果推断
 
 
 %\hrule
@@ -100,22 +114,22 @@ U.S.A.\\[.2cm]
 %\hrule
 \section*{工作经历}
 \noindent
-\years{2019-2020}\emph{生物统计师 } 美国退伍军人事务部圣路易斯分部，临床流行病学研究中心\\
-\years{2017-2019}\emph{研究助理 } 美国国家自然科学基金全额资助，圣路易斯大学公共卫生与社会正义学院\\
-\years{2016}\emph{数据分析师 } 中国湖北武汉雕龙软件公司\\
+\years{2019-2020}\emph{生物统计研究员 } 美国退伍军人事务部圣路易斯分部，临床流行病学研究中心\\
+\years{2017-2019}\emph{研究助理 } 圣路易斯大学公共卫生与社会正义学院(美国国家自然科学基金全额资助)\\
+\years{2016}\emph{数据科学家 } 湖北武汉雕龙软件公司\\
 \years{2014}\emph{实习科员 } 湖北省卫生与计划生育委员会
 
 
 %%\hrule
 \section*{编程技能}
 \noindent
-\years{R}每日R使用者，熟练使用以下包: \texttt{Rmarkdown}, \texttt{tidyverse}, \texttt{data.table}, \texttt{shiny}, \texttt{brms}$\dots$\\
+\years{R}每日R使用者，熟练使用: \texttt{tidyverse}, \texttt{data.table}, \texttt{shiny}, \texttt{rstan}$\dots$\\
+\years{Python}运用常见包进行机器学习和深度学习：\texttt{pandas}, \texttt{pyspark}, \texttt{dask}, \texttt{h2o}, \texttt{tensorflow}$\dots$\\
 \years{SAS}美国退伍军人事务部全国超过20亿门诊和住院病人病历数据的处理和统计建模\\
-\years{PYTHON}运用常见包进行机器学习和深度学习：\texttt{pandas}, \texttt{pyspark}, \texttt{dask}, \texttt{h2o}, \texttt{tensorflow}$\dots$\\
 \years{Stan \& JAGS}使用吉布斯抽样和汉密尔顿蒙特卡洛模拟进行贝叶斯统计推断\\
-\years{SQL}超过20亿条美国退伍军人事务部门诊和住院病历首页数据管理和统计建模\\
-\years{STATA}熟练使用计量经济建模\\
-\years{\LaTeX}精美印刷水准的文档排版与写作
+\years{SQL}超过20亿条美国退伍军人事务部门诊和住院病历首页数据管理、数据清洗和整合\\
+\years{Stata \& SPSS}计量经济和统计建模，指导研究生和入门水平的研究人员\\
+\years{\LaTeX}期刊印刷和书籍出版水准的文档排版
 
 
 
@@ -123,24 +137,36 @@ U.S.A.\\[.2cm]
 %\hrule
 \section*{参与的研究项目}
 \noindent
-\years{2017-2019}\emph{美国国家自然科学基金(National Science Foundation, NSF) }GOALI/Collaborative Research: Human Maintenance - A Prognostics Framework to Model Changes in Drivers' Safety Performance and Optimize Dispatching Policies. PI:  Steven E. Rigdon (本人的博士生导师) at Saint Louis University\\
-\years{2015-2018}\emph{中国国家自然科学基金面上项目 }基于结构方程模型的紧密型医疗联合体绩效评价以及影响因素研究（批号：71473099），起止时间：2015.1-2018.12\\
-\years{2012-2015}\emph{中国国家自然科学基金面上项目 }基于病种质量管理的城市综合医院住院医疗资源利用评价模型与管理路径研究（批号：71173081），起止时间：2012.1-2015.12\\
-\years{2013-2014}\emph{中国国家卫生与计划委员会项目 }我国医疗中心设置与规划布局研究
+\years{2017-2019}\emph{美国国家自然科学基金(National Science Foundation, NSF) }GOALI/Collaborative Research: Human Maintenance - A Prognostics Framework to Model Changes in Drivers' Safety Performance and Optimize Dispatching Policies. 项目批号1635927，资助金额23万美元\\
+\years{2015-2018}\emph{中国国家自然科学基金面上项目 }基于结构方程模型的紧密型医疗联合体绩效评价以及影响因素研究（批号：71473099）\\
+\years{2012-2015}\emph{中国国家自然科学基金面上项目 }基于病种质量管理的城市综合医院住院医疗资源利用评价模型与管理路径研究（批号：71173081）\\
+\years{2013-2014}\emph{中国国家卫生与计划委员会项目 }公立医院功能定位及其规模设置研究\\
+\years{2013-2014}\emph{中国国家卫生与计划委员会项目 }我国医疗中心设置与规划布局研究\\
+\years{2017-2018}\emph{武汉市武昌区卫生与计划委员会 }区域化健康资源整合与一体化服务创新模式研究\\
+\years{2016-2017}\emph{湖北省医改办 }湖北省基本医疗服务病种范围的界定研究\\%深化医药卫生体制改革工作领导小组办公室项目
+\years{2015-2016}\emph{深圳市福田区前期项目办项目 }深圳市福田区社康中心基本设备配置标准及规划研究\\
+\years{2015-2016}\emph{深圳市福田区前期项目办项目 }深圳市福田区医疗机构设备配置标准及规划\\
+\years{2015-2016}\emph{孝感市卫生与计划委员会项目 }孝感市医疗资源配置与利用现状及其配置策略研究\\
+\years{2014-2015}\emph{孝感市人大常委会项目 }鄂东北区域医疗中心建设可行性论证
 
 %%\hrule
-\section*{荣誉 \& 获奖}
+\section*{荣誉 $\&$ 获奖}
 \noindent
-\years{2018}\emph{攻读学位博士生 } 国家留学基金委授予(\$1600*24个月)\\
-\years{2016}\emph{联合培养硕士生 } 国家留学基金委授予(\$1600*5个月)\\
-\years{2015}\emph{优秀本科毕业生 } 华中科技大学授予\\
-\years{2014}\emph{优秀本科毕业论文二等奖 } 湖北省教育厅授予\\
-\years{2013}\emph{国家奖学金 } 华中科技大学授予\\
-\years{2012}\emph{国家励志奖学金 } 华中科技大学授予\\
-\years{2012}\emph{香港道德会奖学金   } 香港道德会授予\\
-\years{2011}\emph{国家励志奖学金  } 华中科技大学授予\\
+\years{2018}国家留学基金委 国家建设高水平大学公派 \emph{攻读学位博士生} (\$1900*24个月)\\
+\years{2017}圣路易斯大学公共卫生与社会正义学院 \emph{博士全额奖学金}\\
+\years{2017}华中科技大学 \emph{优秀硕士毕业生} \\
+\years{2017}华中科技大学 \emph{全日制硕士一等奖学金} \\
+\years{2016}国家留学基金委 国家建设高水平大学公派 \emph{联合培养硕士生} (\$1600*5个月)\\
+\years{2016}华中科技大学 \emph{全日制硕士一等奖学金} \\
+\years{2015}华中科技大学 \emph{全日制硕士一等奖学金} \\
+\years{2014}华中科技大学 \emph{优秀本科毕业生} \\
+\years{2014}湖北省教育厅 \emph{优秀本科毕业论文二等奖} \\
+\years{2013}华中科技大学 \emph{国家奖学金}\\
+\years{2012}华中科技大学 \emph{国家励志奖学金}\\
+\years{2012}香港道德会 \emph{香港道德会奖学金}\\
+\years{2011}华中科技大学 \emph{国家励志奖学金}
 
-\section*{出版 \& 演讲}
+\section*{出版 $\&$ 演讲}
 
 \subsection*{国际同行评议期刊文章}
 \noindent
@@ -158,16 +184,19 @@ U.S.A.\\[.2cm]
 
 \subsection*{会议摘要}
 \noindent
+\years{2019}\underline{Miao Cai}, Eric Adjei Boakye, Ziqi Peng, et al. (2019), "Disparity of The Disparities: A Comparison of Rural-Urban Disparity Regarding In-Hospital Mortalities Among Acute Myocardial Infarction Patients, An Observational Study Between China and The United States, 2013-2015". \emph{International Society for Pharmacoeconomics and Outcomes Research (ISPOR) 2019 }. \\
 \years{2016}Xiaojun Lin, Hongbing Tao*, \underline{Miao Cai}, et al. (2016), "Health insurance and quality and efficiency of medical care for patients with acute myocardial infraction in tertiary hospitals in Shanxi, China: a retrospective study". \emph{The Lancet-CAMS Health Summit}. DOI: \href{https://doi.org/10.1016/S0140-6736(16)31997-3}{10.1016/S0140-6736(16)31997-3}\\
 \years{2016}Manli Wang, Hongbing Tao*, Haiqing Fang, Zhaohui Cheng, \underline{Miao Cai}, et al. (2016), "Patient safety culture in surgical departments versus other departments in county hospitals of Hubei province, China: a cross-sectional survey". \emph{The Lancet-CAMS Health Summit}. DOI: \href{https://doi.org/10.1016/S0140-6736(16)31998-5}{10.1016/S0140-6736(16)31998-5}\\
 \years{2015}Zhaohui Cheng, Hongbing Tao*, \underline{Miao Cai}, et al.  (2015), "Using a two-stage data envelopment analysis to estimate the efficiency of county hospitals in China: A panel data study". \emph{The Lancet-CAMS Health Summit}. DOI:\href{https://doi.org/10.1016/S0140-6736(15)00645-5}{10.1016/S0140-6736(15)00645-5} 
 
 \subsection*{会议报告}
 \noindent
+\years{2019}Xiaojun Lin, Kenton Johnston, \underline{Miao, Cai}. (March 2019), "Does the medical consortium reform improve hospital efficiency? Evidence from secondary general hospitals in Shanxi, China, 2013-2017", \emph{The 1st Health Economics and Policy Forum} at Peking University, Beijing, China\\
 \years{2018}\underline{Miao Cai}, E. Liu, H. Tao, et al. (May, 2018), "Does A Medical Consortium Influence Health Outcomes of Hospitalized Cancer Patients: An Integrated Care Model in Shanxi, China", \emph{2018 Biennial Conference "Advances in Health Policy and Healthcare: The Road Ahead"} by China Health Policy and Management Society (CHPAMS) at Yale University, New Haven, Connecticut, USA
 
 \subsection*{中文同行评议期刊文章}
 \noindent
+\years{2019}陈默, \underline{蔡苗}, 黄阿红, 沈梦雪, 吴其, 张泽苗, 乐虹. "基于K-means聚类与支持向量机的大病患者住院费用影响因素与控制策略研究". \emph{中国医院管理}. 2019, 39(5): 45-47. \href{http://d.old.wanfangdata.com.cn/Periodical/zgyygl201905018}{Link}\\
 \years{2017}\underline{蔡苗}, Echu Liu, 陶红兵*, 程兆辉, 林小军. "市场竞争对医院技术效率的影响——基于河南省和江苏省的实证研究". \emph{中国医院管理}. 2017, 37(6): 22-24. \href{http://www.cnki.com.cn/Article/CJFDTotal-YYGL201706012.htm}{Link}\\
 \years{2017}Leidy S. Delgado, 陶红兵*, \underline{蔡苗}, Ashleigh Oguagha. "肿瘤多学科团队实施现状及影响因素研究". \emph{中国医疗管理科学}. 2017, 7(3): 41-46. \href{http://www.cnki.com.cn/Article/CJFDTOTAL-YLGL201703008.htm}{Link}\\
 \years{2017}夏述旭, 陶红兵*, 都丽婷, \underline{蔡苗}, 林小军, 林海锋. "“互联网+” 背景下移动医疗质量与安全问题分析及强策研究". \emph{中国卫生质量管理}. 2017, 24(3): 82 - 85. \href{http://www.cnki.com.cn/Article/CJFDTOTAL-WSJG201703030.htm}{Link}\\
@@ -182,18 +211,24 @@ U.S.A.\\[.2cm]
 \years{2013}\underline{蔡苗},  徐小兵, 蔡海洋, 常瑞, 林小军, 黄艳然. "医疗不良事件识别途径及干预策略". \emph{医学与社会}. 2013, 26(9): 20 – 22. \href{http://www.cnki.com.cn/Article/CJFDTOTAL-YXSH201309007.htm}{Link}\\
 \years{2013}\underline{蔡苗}, 陶红兵*, 林小军, 徐小兵, 蔡海洋, 陈飞翔. "阻碍医护人员报告医疗不良事件的影响因素分析". \emph{中国卫生质量管理}. 2013, 20(5): 41 – 43. \href{http://www.cqvip.com/qk/98273x/201305/47221843.html}{Link}
 
-\subsection*{工作中的论文}
+\subsection*{已投稿论文}
 \noindent
-\underline{Miao Cai}, E. Liu*, et al. "Disparity of Disparities: A Comparison of Rural-Urban Disparity of Health Outcomes among Acute Myocardial Infarction Inpatients between China and US, 2013-2015".\\
-\underline{Miao Cai}, E. Liu, et al. "Does hospital volume influence Medical Quality Among Cardiovascular Disease Patients? An Instrumental Variable Approach".\\
-Xiaojun Lin, \underline{Miao Cai}. "Does Hospital Competition Influence Medical Quality? Empirical Evidence from Shanxi, China"
+\years{2019}\underline{Cai, M.}, Ali Alamdar Yazdi, M., Hu, Q., Mehdizadeh A., Vinel, A., Rigdon, S., Davis, K., Megahed, F.. "The association between crashes and safety-critical events: synthesized evidence from crash reports and naturalistic driving data among commercial truck drivers", 已投稿至 \emph{Journal of Quality Technology}.\\
+\years{2019}\underline{Cai, M.}, Steven E. Rigdon, Daire Jansson, Leslie Hinyard, Zhengmin Qian. "Validating Two Multiple Indicators and Three Single Numeric Score Charlson or Elixhauser Comorbidity Indices Among the Population of Shanxi, China", 已投稿至 \emph{Medical Care}.\\
+\years{2019}\underline{Cai, M.}, Yang R., Yang S., Zheng T., Dong G., Lin H., Rigdon S., Xian H., Hinyard L., Xaverius P., Burroughs T., Liu E., Jansson D., Zhang B., Qian Z.. "Association between maternal physical exercise and the risk of preterm birth: A case-control study in Wuhan, China", 已投稿至 \emph{Journal of Clinical Epidemiology}.\\
+\years{2019}Qiong Hu, Amir Mehdizadeh, Nasrin Mohabbati Kalejahi, Mohammad Ali Alamdar Yazdi, \underline{Cai, M.}, Aleksandr Vinel, Steven E. Rigdon, Karen C. Davis, Fadel M. Megahed. "Bridging the Gap between Transportation Safety Research and its Incorporation in Optimization Models: a Detailed Review and Perspective", 已投稿至o \emph{Accident Analysis \& Prevention}.
 
 \section*{R包开发}
-R Package: \emph{MiaoCom}. A R package for calculating comorbidity indexes (i.e. Charlson Comorbidity Index, Elixhauser Comorbidity Index, and C3 Index) for epidemiologists. Source: \href{https://github.com/caimiao0714/MiaoCom}{https://github.com/caimiao0714/MiaoCom}
+\texttt{MiaoCom}. A R package for calculating comorbidity indexes (i.e. Charlson Comorbidity Index, Elixhauser Comorbidity Index, and C3 Index) for epidemiologists.\\
+Source: \href{https://github.com/caimiao0714/MiaoCom}{https://github.com/caimiao0714/MiaoCom}
+
+\section*{网站开发和维护}
+Supplementary materials for "Bridging the Gap between Transportation Safety Research and its Incorporation in Optimization Models: a Detailed Review and Perspective", 已投稿至\emph{Accident Analysis \& Prevention}. \\
+Source: \href{https://caimiao0714.github.io/TrafficSafetyReviewRmarkdown/}{https://caimiao0714.github.io/TrafficSafetyReviewRmarkdown/}
 
 %\hrule
 \section*{同行评议}
-\emph{International Journal for Equity in Health}审稿人
+\emph{International Journal for Equity in Health}， \emph{BMJ Open}审稿人
 
 %\vspace{1cm}
 \vfill{}

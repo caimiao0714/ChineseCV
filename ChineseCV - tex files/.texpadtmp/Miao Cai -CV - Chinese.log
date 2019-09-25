@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.4.16)  1 JUL 2019 09:21
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.4.16)  8 AUG 2019 11:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1946,28 +1946,33 @@ Package marginnote Info: Margin note 4.14 is on absolute page 5
 Package marginnote Info: right page because not two side mode on input line 183.
 Package marginnote Info: xpos seems to be 100.01144pt,
 (marginnote)             \marginnoteleftadjust ignored on input line 183.
- [4]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 212.
- [5]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 212.
+Package marginnote Info: Margin note 4.15 is on absolute page 5
+(marginnote)              on input line 184.
+Package marginnote Info: right page because not two side mode on input line 184.
+Package marginnote Info: xpos seems to be 100.01144pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 184.
+ [4] [5]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 213.
+ [6]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 213.
  (/Users/miaocai/Dropbox/Academic CV/ChineseCV/ChineseCV - tex files/.texpadtmp/Miao Cai -CV - Chinese.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 212.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 212.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 213.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 213.
 Package rerunfilecheck Info: File `"Miao Cai -CV - Chinese".out' has not changed.
 (rerunfilecheck)             Checksum: .
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 212.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 213.
  ) 
 Here is how much of TeX's memory you used:
- 27476 strings out of 492970
- 538488 string characters out of 6133938
- 615866 words of memory out of 5000000
- 31232 multiletter control sequences out of 15000+600000
+ 27477 strings out of 492970
+ 538500 string characters out of 6133938
+ 615882 words of memory out of 5000000
+ 31233 multiletter control sequences out of 15000+600000
  534303 words of font info for 65 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 48i,11n,83p,10430b,335s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 48i,11n,83p,10430b,392s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on /Users/miaocai/Dropbox/Academic CV/ChineseCV/ChineseCV - tex files/.texpadtmp/Miao Cai -CV - Chinese.pdf (5 pages).
+Output written on /Users/miaocai/Dropbox/Academic CV/ChineseCV/ChineseCV - tex files/.texpadtmp/Miao Cai -CV - Chinese.pdf (6 pages).
