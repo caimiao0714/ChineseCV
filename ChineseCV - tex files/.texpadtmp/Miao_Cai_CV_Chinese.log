@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.4.16)  11 DEC 2019 09:54
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.4.16)  12 DEC 2019 12:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2151,47 +2151,52 @@ Package marginnote Info: Margin note 5.20 is on absolute page 6
 Package marginnote Info: right page because not two side mode on input line 249.
 Package marginnote Info: xpos seems to be 99.58464pt,
 (marginnote)             \marginnoteleftadjust ignored on input line 249.
+Package marginnote Info: Margin note 5.21 is on absolute page 6
+(marginnote)              on input line 250.
+Package marginnote Info: right page because not two side mode on input line 250.
+Package marginnote Info: xpos seems to be 99.58464pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 250.
 
-Overfull \hbox (3.63455pt too wide) in paragraph at lines 242--250
+Overfull \hbox (3.63455pt too wide) in paragraph at lines 242--251
 |[]\TU/LinLibertine_R.otf(0)/m/n/10.95 Qiong Hu, Amir Mehdizadeh, Nasrin Mohabbati Kalejahi, Mohammad Ali Alamdar Yazdi, $[]$,
  []
 
 [5]
 Package marginnote Info: Margin note 6.1 is on absolute page 6
-(marginnote)              on input line 252.
-Package marginnote Info: right page because not two side mode on input line 252.
+(marginnote)              on input line 254.
+Package marginnote Info: right page because not two side mode on input line 254.
 Package marginnote Info: xpos seems to be 99.58464pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 252.
+(marginnote)             \marginnoteleftadjust ignored on input line 254.
 Package marginnote Info: Margin note 6.2 is on absolute page 6
-(marginnote)              on input line 253.
-Package marginnote Info: right page because not two side mode on input line 253.
+(marginnote)              on input line 255.
+Package marginnote Info: right page because not two side mode on input line 255.
 Package marginnote Info: xpos seems to be 99.58464pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 253.
-Package marginnote Info: Margin note 6.3 is on absolute page 6
-(marginnote)              on input line 256.
-Package marginnote Info: right page because not two side mode on input line 256.
+(marginnote)             \marginnoteleftadjust ignored on input line 255.
+Package marginnote Info: Margin note 6.3 is on absolute page 7
+(marginnote)              on input line 258.
+Package marginnote Info: right page because not two side mode on input line 258.
 Package marginnote Info: xpos seems to be 99.58464pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 256.
+(marginnote)             \marginnoteleftadjust ignored on input line 258.
  [6]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 273.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 275.
  [7]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 273.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 275.
  (/Users/miaocai/Dropbox/CV/ChineseCV/ChineseCV - tex files/.texpadtmp/Miao_Cai_CV_Chinese.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 273.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 273.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 275.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 275.
 Package rerunfilecheck Info: File `Miao_Cai_CV_Chinese.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 273.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 275.
  ) 
 Here is how much of TeX's memory you used:
- 27788 strings out of 492970
- 542885 string characters out of 6133938
- 626757 words of memory out of 5000000
- 31528 multiletter control sequences out of 15000+600000
+ 27789 strings out of 492970
+ 542897 string characters out of 6133938
+ 627773 words of memory out of 5000000
+ 31529 multiletter control sequences out of 15000+600000
  535248 words of font info for 72 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  48i,11n,83p,10425b,335s stack positions out of 5000i,500n,10000p,200000b,80000s
