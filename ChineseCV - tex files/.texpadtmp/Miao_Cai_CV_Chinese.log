@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.4.16)  25 NOV 2019 11:53
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.4.16)  11 DEC 2019 09:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2167,34 +2167,20 @@ Package marginnote Info: Margin note 6.2 is on absolute page 6
 Package marginnote Info: right page because not two side mode on input line 253.
 Package marginnote Info: xpos seems to be 99.58464pt,
 (marginnote)             \marginnoteleftadjust ignored on input line 253.
-
-Overfull \hbox (116.70137pt too wide) in paragraph at lines 252--254
-[]\TU/LinLibertine_R.otf(0)/m/n/10.95 R Package: \TU/LinLibertine_R.otf(0)/m/it/10.95 NDS\TU/LinLibertine_R.otf(0)/m/n/10.95 . “An R package for manipulating naturalistic driving datasets”. Source: [][]https://github.com/caimiao0714/NDS[][] 
- []
-
-
-Overfull \hbox (128.6241pt too wide) in paragraph at lines 252--254
-\TU/LinLibertine_R.otf(0)/m/n/10.95 ity Index, Elixhauser Comorbidity Index, and C3 Index) for epidemiologists”. Source: [][]https://github.com/caimiao0714/MiaoCom[][] 
- []
-
 Package marginnote Info: Margin note 6.3 is on absolute page 6
 (marginnote)              on input line 256.
 Package marginnote Info: right page because not two side mode on input line 256.
 Package marginnote Info: xpos seems to be 99.58464pt,
 (marginnote)             \marginnoteleftadjust ignored on input line 256.
-
-Overfull \hbox (151.63367pt too wide) in paragraph at lines 256--257
-\TU/LinLibertine_R.otf(0)/m/n/10.95 ted to \TU/LinLibertine_R.otf(0)/m/it/10.95 Transportation Research Part C: Emerging Technologies\TU/LinLibertine_R.otf(0)/m/n/10.95 . Source: [][]https://caimiao0714.github.io/TrafficSafetyReviewRmarkdown/[][] 
- []
-
+ [6]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 273.
-[6] [7]
+ [7]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 273.
  (/Users/miaocai/Dropbox/CV/ChineseCV/ChineseCV - tex files/.texpadtmp/Miao_Cai_CV_Chinese.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 273.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 273.
 Package rerunfilecheck Info: File `Miao_Cai_CV_Chinese.out' has not changed.
-(rerunfilecheck)             Checksum: .
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
