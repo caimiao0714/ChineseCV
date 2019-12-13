@@ -1,0 +1,5329 @@
+#LyX file created by tex2lyx 2.3
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin D:/Dropbox/CV/ChineseCV/ChineseCV - tex files/
+\textclass article
+\begin_preamble
+%------------------------------------
+% Dario Taraborelli
+% Typesetting your academic CV in LaTeX
+%
+% URL: http://nitens.org/taraborelli/cvtex
+% DISCLAIMER: This template is provided for free and without any guarantee 
+% that it will correctly compile on your system if you have a non-standard  
+% configuration.
+% Some rights reserved: http://creativecommons.org/licenses/by-sa/3.0/
+%------------------------------------
+
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+\usepackage[UTF8]{ctex}
+\usepackage{epigraph}
+\usepackage{titlesec}
+
+
+% DOCUMENT LAYOUT
+
+%, marginparsep=7pt, marginparwidth=.6in
+
+
+% FONTS
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{xunicode}
+\usepackage{xltxtra}
+\defaultfontfeatures{Mapping=tex-text}
+%\setromanfont [Ligatures={Common}, Numbers={OldStyle}, Variant=01]{Linux Libertine O}
+%\setmonofont[Scale=0.8]{Monaco}
+%%% modified by Karol Kozioł for ShareLaTeX use
+
+
+%\setCJKmainfont[BoldFont={MacFZXBSGBK.ttf}, ItalicFont={MacFZXBSGBK.ttf}, BoldItalicFont={MacFZXBSGBK.ttf}]{MacFZXBSGBK.ttf}
+%\setCJKsansfont{MacFZXBSGBK.ttf}
+%\setCJKmonofont{MacFZXBSGBK.ttf}
+
+
+% ---- CUSTOM COMMANDS
+\chardef\&="E050
+\newcommand{\html}[1]{\href{#1}{\scriptsize\textsc{[html]}}}
+\newcommand{\pdf}[1]{\href{#1}{\scriptsize\textsc{[pdf]}}}
+\newcommand{\doi}[1]{\href{#1}{\scriptsize\textsc{[doi]}}}
+% ---- MARGIN YEARS
+\usepackage{marginnote}
+\newcommand{\amper{}}{\chardef\amper="E0BD }
+\newcommand{\years}[1]{\marginnote{\scriptsize #1}}
+\renewcommand*{\raggedleftmarginnote}{}
+\setlength{\marginparsep}{7pt}
+\reversemarginpar
+
+% HEADINGS
+\usepackage{sectsty}
+\usepackage[normalem]{ulem}
+% SET FONTS
+\setCJKfamilyfont{MyCJKfzxbs}{FZXiaoBiaoSong-B05S} %方正小标宋简体
+\newcommand{\fzxbs}{\CJKfamily{MyCJKfzxbs}}
+
+\sectionfont{\fzxbs\bfseries\upshape\Large}
+\subsectionfont{\fzxbs\bfseries\scshape\normalsize} 
+\subsubsectionfont{\fzxbs\bfseries\upshape\large} 
+%\titleformat{\section}[block]{\LARGE\bfseries}{Sec.\arabic{section}}{1em}{Hello: }[]
+%\titleformat{\subsection}[block]{\Large\itshape\mdseries}{\arabic{section}.\arabic{subsection}}{1em}{}[]
+
+
+% PDF SETUP
+% ---- FILL IN HERE THE DOC TITLE AND AUTHOR
+ 
+
+
+
+% DOCUMENT
+
+\end_preamble
+\use_default_options false
+\maintain_unincluded_children false
+\language english
+\language_package none
+\inputencoding auto
+\fontencoding default
+\font_roman "default" "LinLibertine_R.otf"
+\font_sans "default" "default"
+\font_typewriter "default" "DejaVuSansMono.ttf"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 80
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 11
+\spacing single
+\use_hyperref true
+\pdf_title "蔡苗学术简历"
+\pdf_author "蔡苗"
+\pdf_bookmarks 0
+\pdf_bookmarksnumbered 0
+\pdf_bookmarksopen 0
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks 1
+\pdf_pdfborder 0
+\pdf_colorlinks 0
+\pdf_backref section
+\pdf_pdfusetitle 0
+\pdf_quoted_options "bookmarks,colorlinks,pdfproducer=http://nitens.org/taraborelli/cvtex,linkcolor=blue,citecolor=blue,filecolor=black,urlcolor=MidnightBlue"
+\papersize a4paper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 0
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 0
+\use_package mathtools 0
+\use_package mhchem 0
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip medskip
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+
+\size largest
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+fzxbs
+\end_layout
+
+\end_inset
+
+ 蔡苗
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\size default
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+
+\backslash
+[.35cm]
+\end_layout
+
+\end_inset
+
+ 生物统计学博士研究生（三年级）
+\begin_inset Newline newline
+\end_inset
+
+ 美国圣路易斯大学，公共卫生与社会正义学院，流行病与生物统计系
+\begin_inset Newline newline
+\end_inset
+
+ 3545 Lafayette Ave., Room 484, Saint Louis, MO 63108 U.S.A.
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+
+\backslash
+[.3cm]
+\end_layout
+
+\end_inset
+
+ 联系电话: +
+\begin_inset Formula $1(314)$
+\end_inset
+
+-
+\begin_inset Formula $326$
+\end_inset
+
+-
+\begin_inset Formula $8418$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ 电子邮箱: 
+\begin_inset CommandInset href
+LatexCommand href
+target "miao.cai@slu.edu"
+type "mailto:"
+literal "false"
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ 个人网站: 
+\begin_inset CommandInset href
+LatexCommand href
+target "caimiao0714.com"
+literal "false"
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ 相关网站: 
+\begin_inset CommandInset href
+LatexCommand href
+name "GitHub"
+target "https://github.com/caimiao0714"
+literal "false"
+
+\end_inset
+
+, 
+\begin_inset CommandInset href
+LatexCommand href
+name "ORCID"
+target "https://orcid.org/0000-0003-0170-6905"
+literal "false"
+
+\end_inset
+
+, 
+\begin_inset CommandInset href
+LatexCommand href
+name "Google Scholar"
+target "https://scholar.google.com/citations?user=kjFCzEkAAAAJ&hl=en"
+literal "false"
+
+\end_inset
+
+, 
+\begin_inset CommandInset href
+LatexCommand href
+name "ResearchGate"
+target "https://www.researchgate.net/profile/Miao_Cai2"
+literal "false"
+
+\end_inset
+
+, 
+\begin_inset CommandInset href
+LatexCommand href
+name "LinkedIn"
+target "https://www.linkedin.com/in/miao-cai-7b5a62a3/"
+literal "false"
+
+\end_inset
+
+, 
+\begin_inset CommandInset href
+LatexCommand href
+name "Scopus"
+target "https://www.scopus.com/authid/detail.uri?authorId=56824998300"
+literal "false"
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ 出生日期: 
+\begin_inset Formula $1993$
+\end_inset
+
+年
+\begin_inset Formula $7$
+\end_inset
+
+月
+\begin_inset Formula $14$
+\end_inset
+
+日—中国湖北省武汉市 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%
+\backslash
+hrule
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+研究领域
+\end_layout
+
+\begin_layout Standard
+贝叶斯统计, 可靠性理论， 临床流行病学， 健康经济学， 因果推断
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%
+\backslash
+hrule
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+教育经历
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+years{
+\end_layout
+
+\end_inset
+
+2017 – 2020
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+美国圣路易斯大学
+\begin_inset Formula $\;$
+\end_inset
+
+生物统计方向
+\begin_inset Formula $\;$
+\end_inset
+
+公共卫生学博士
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+years{
+\end_layout
+
+\end_inset
+
+2014 – 2017
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+中国华中科技大学
+\begin_inset Formula $\;$
+\end_inset
+
+医院管理学方向
+\begin_inset Formula $\;$
+\end_inset
+
+管理学硕士
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+years{
+\end_layout
+
+\end_inset
+
+2010 – 2014
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+中国华中科技大学
+\begin_inset Formula $\;$
+\end_inset
+
+卫生事业管理学方向
+\begin_inset Formula $\;$
+\end_inset
+
+管理学学士
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%
+\backslash
+hrule
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+工作经历
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+years{
+\end_layout
+
+\end_inset
+
+2019 – 2020
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+美国退伍军人事务部圣路易斯分部，临床流行病学研究中心 
+\emph on
+生物统计研究员
+\emph default
+ 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+years{
+\end_layout
+
+\end_inset
+
+2017 – 2019
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+圣路易斯大学公共卫生与社会正义学院(美国国家自然科学基金资助) 
+\emph on
+研究助理 
+\emph default
+ 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+years{
+\end_layout
+
+\end_inset
+
+2016
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+湖北武汉雕龙数据科技有限公司 
+\emph on
+数据科学家
+\emph default
+ 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+years{
+\end_layout
+
+\end_inset
+
+2014
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+湖北省卫生与计划生育委员会 
+\emph on
+实习科员
+\emph default
+
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%%
+\backslash
+hrule
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+编程技能
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+years{
+\end_layout
+
+\end_inset
+
+R
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+每日R使用者，熟练使用: 
+\family typewriter
+tidyverse
+\family default
+, 
+\family typewriter
+data.table
+\family default
+, 
+\family typewriter
+shiny
+\family default
+, 
+\family typewriter
+rstan
+\family default
+
+\begin_inset Formula $\dots$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+years{
+\end_layout
+
+\end_inset
+
+Python
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+运用常见包进行机器学习和深度学习：
+\family typewriter
+pandas
+\family default
+, 
+\family typewriter
+pyspark
+\family default
+, 
+\family typewriter
+dask
+\family default
+, 
+\family typewriter
+h2o
+\family default
+, 
+\family typewriter
+tensorflow
+\family default
+
+\begin_inset Formula $\dots$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+years{
+\end_layout
+
+\end_inset
+
+SAS
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+美国退伍军人事务部全国超过20亿门诊和住院病人病历数据的处理和统计建模
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+years{
+\end_layout
+
+\end_inset
+
+Stan & JAGS
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+使用吉布斯抽样和汉密尔顿蒙特卡洛模拟进行贝叶斯统计推断
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+years{
+\end_layout
+
+\end_inset
+
+SQL
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+超过20亿条美国退伍军人事务部门诊和住院病历首页数据管理、数据清洗和整合
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+years{
+\end_layout
+
+\end_inset
+
+Stata & SPSS
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+计量经济和统计建模，指导研究生和入门水平的研究人员
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+years{
+\end_layout
+
+\end_inset
+
+\SpecialChar LaTeX
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+期刊印刷和书籍出版水准的文档排版
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%
+\backslash
+hrule
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+参与的研究项目
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+years{
+\end_layout
+
+\end_inset
+
+2019 – 2021
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\emph on
+美国退伍军人事务部 Department of Veteran Affair's Health Services Research and Development Service (HSR 
+\begin_inset Formula $\&$
+\end_inset
+
+ D)
+\emph default
+ Cause-specific mortality among users of Proton Pump Inhibitors.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+% 项目批号PPO 19-017-2
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+years{
+\end_layout
+
+\end_inset
+
+2017 – 2019
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\emph on
+美国国家自然科学基金(National Science Foundation, NSF) 
+\emph default
+GOALI/Collaborative Research: Human Maintenance - A Prognostics Framework to Model Changes in Drivers' Safety Performance and Optimize Dispatching Policies.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+% 项目批号1635927，资助金额23万美元
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+years{
+\end_layout
+
+\end_inset
+
+2015 – 2018
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\emph on
+中国国家自然科学基金面上项目 
+\emph default
+基于结构方程模型的紧密型医疗联合体绩效评价以及影响因素研究
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%（项目批号：71473099）
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+years{
+\end_layout
+
+\end_inset
+
+2012 – 2015
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\emph on
+中国国家自然科学基金面上项目 
+\emph default
+基于病种质量管理的城市综合医院住院医疗资源利用评价模型与管理路径研究
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%（项目批号：71173081）
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+years{
+\end_layout
+
+\end_inset
+
+2013 – 2014
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\emph on
+中国国家卫生与计划委员会项目 
+\emph default
+公立医院功能定位及其规模设置研究
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+years{
+\end_layout
+
+\end_inset
+
+2013 – 2014
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\emph on
+中国国家卫生与计划委员会项目 
+\emph default
+我国医疗中心设置与规划布局研究
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+years{
+\end_layout
+
+\end_inset
+
+2017 – 2018
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\emph on
+武汉市武昌区卫生与计划委员会 
+\emph default
+区域化健康资源整合与一体化服务创新模式研究
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+years{
+\end_layout
+
+\end_inset
+
+2016 – 2017
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\emph on
+湖北省医改办 
+\emph default
+湖北省基本医疗服务病种范围的界定研究
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%深化医药卫生体制改革工作领导小组办公室项目
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+years{
+\end_layout
+
+\end_inset
+
+2015 – 2016
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\emph on
+深圳市福田区前期项目办项目 
+\emph default
+深圳市福田区社康中心基本设备配置标准及规划研究
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+years{
+\end_layout
+
+\end_inset
+
+2015 – 2016
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\emph on
+深圳市福田区前期项目办项目 
+\emph default
+深圳市福田区医疗机构设备配置标准及规划
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+years{
+\end_layout
+
+\end_inset
+
+2015 – 2016
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\emph on
+孝感市卫生与计划委员会项目 
+\emph default
+孝感市医疗资源配置与利用现状及其配置策略研究
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+years{
+\end_layout
+
+\end_inset
+
+2014 – 2015
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\emph on
+孝感市人大常委会项目 
+\emph default
+鄂东北区域医疗中心建设可行性论证
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%%
+\backslash
+hrule
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+荣誉 
+\begin_inset Formula $\&$
+\end_inset
+
+ 获奖
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+years{
+\end_layout
+
+\end_inset
+
+2018
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+国家留学基金委 
+\emph on
+ 国家建设高水平大学公派攻读学位博士研究生奖学金
+\emph default
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%($1900$美元$
+\backslash
+times 24$个月)
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+years{
+\end_layout
+
+\end_inset
+
+2017
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+圣路易斯大学公共卫生与社会正义学院 
+\emph on
+博士研究生全额奖学金
+\emph default
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+years{
+\end_layout
+
+\end_inset
+
+2017
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+华中科技大学 
+\emph on
+ 优秀硕士毕业生
+\emph default
+ 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+years{
+\end_layout
+
+\end_inset
+
+2017
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+华中科技大学 
+\emph on
+ 全日制硕士一等奖学金
+\emph default
+ 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+years{
+\end_layout
+
+\end_inset
+
+2016
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+国家留学基金委 
+\emph on
+ 国家建设高水平大学公派联合培养硕士研究生奖学金
+\emph default
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%($1600$美元$
+\backslash
+times 5$个月)
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+years{
+\end_layout
+
+\end_inset
+
+2016
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+华中科技大学 
+\emph on
+ 全日制硕士一等奖学金
+\emph default
+ 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+years{
+\end_layout
+
+\end_inset
+
+2015
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+华中科技大学 
+\emph on
+ 全日制硕士一等奖学金
+\emph default
+ 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+years{
+\end_layout
+
+\end_inset
+
+2014
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+华中科技大学 
+\emph on
+ 优秀本科毕业生
+\emph default
+ 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+years{
+\end_layout
+
+\end_inset
+
+2014
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+湖北省教育厅 
+\emph on
+ 优秀本科毕业论文二等奖
+\emph default
+ 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+years{
+\end_layout
+
+\end_inset
+
+2013
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+华中科技大学 
+\emph on
+ 国家奖学金
+\emph default
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+years{
+\end_layout
+
+\end_inset
+
+2012
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+华中科技大学 
+\emph on
+ 国家励志奖学金
+\emph default
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+years{
+\end_layout
+
+\end_inset
+
+2012
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+香港道德会 
+\emph on
+ 香港道德会奖学金
+\emph default
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+years{
+\end_layout
+
+\end_inset
+
+2011
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+华中科技大学 
+\emph on
+ 国家励志奖学金
+\emph default
+
+\end_layout
+
+\begin_layout Section*
+媒体报道
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+years{
+\end_layout
+
+\end_inset
+
+2019
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+ Cincinnati Public Radio: 
+\begin_inset CommandInset href
+LatexCommand href
+name "Miami University Is On The Road To Safer Driving"
+target "https://www.wvxu.org/post/miami-university-road-safer-driving#stream/0"
+literal "false"
+
+\end_inset
+
+, 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+years{
+\end_layout
+
+\end_inset
+
+2019
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+ Miami University, News and Communications: 
+\begin_inset CommandInset href
+LatexCommand href
+name "Miami researchers study factors affecting truck driver alertness"
+target "https://miamioh.edu/news/top-stories/2019/06/fatigue-study.html"
+literal "false"
+
+\end_inset
+
+,
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+years{
+\end_layout
+
+\end_inset
+
+2019
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+ Saint Louis University, College for Public Health and Social Justice, college connect: 
+\begin_inset CommandInset href
+LatexCommand href
+name "SLU Study Finds Vertically Integrated Hospital Care Improves Cancer Patient Outcomes"
+target "https://gallery.mailchimp.com/a3e4404ac622b2beb4b205f61/files/4cc71d2d-bdc4-4035-8ba6-b98ae42bedc3/SLU_Study_Finds_Vertically_Integrated_Hospital_Care_Improves_Cancer_Patient_Outcomes.pdf?utm_source=Unknown+List&utm_campaign=8d37abbd00-EMAIL_CAMPAIGN_2019_01_22_08_06&utm_medium=email&utm_term=0_-8d37abbd00-"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section*
+学术组织会员
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+years{
+\end_layout
+
+\end_inset
+
+2019 –
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{
+\end_layout
+
+\end_inset
+
+美国统计协会(American Statistical Association)
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+: 会员,
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%
+\backslash
+href{https://www.amstat.org/}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+years{
+\end_layout
+
+\end_inset
+
+2017 –
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{
+\end_layout
+
+\end_inset
+
+美国公共卫生协会(American Public Health Association)
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+: 会员,
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%
+\backslash
+href{https://www.apha.org/}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+years{
+\end_layout
+
+\end_inset
+
+2017 –
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{
+\end_layout
+
+\end_inset
+
+中国留美经济学会(The Chinese Economists Society)
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+: 会员,
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%
+\backslash
+href{https://www.china-ces.org/}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+years{
+\end_layout
+
+\end_inset
+
+2017 –
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{
+\end_layout
+
+\end_inset
+
+中国卫生政策与管理学会(China Health Policy and Management Society)
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+: 会员.
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%
+\backslash
+href{http://www.chpams.org/}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%
+\backslash
+hrule
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+学术期刊审稿
+\end_layout
+
+\begin_layout Standard
+国际学术期刊同行评议审稿人：
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+years{
+\end_layout
+
+\end_inset
+
+2019 –
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{
+\end_layout
+
+\end_inset
+
+Clinical Epidemiology
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+,
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+years{
+\end_layout
+
+\end_inset
+
+2019 –
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{
+\end_layout
+
+\end_inset
+
+International Journal of Geriatric Psychiatry
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+,
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%
+\backslash
+href{https://onlinelibrary.wiley.com/journal/10991166}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+years{
+\end_layout
+
+\end_inset
+
+2018 –
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{
+\end_layout
+
+\end_inset
+
+BMJ Open
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+,
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%
+\backslash
+href{https://bmjopen.bmj.com/}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+years{
+\end_layout
+
+\end_inset
+
+2017 –
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{
+\end_layout
+
+\end_inset
+
+International Journal for Equity in Health
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+.
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%
+\backslash
+href{https://equityhealthj.biomedcentral.com/}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+出版 
+\begin_inset Formula $\&$
+\end_inset
+
+ 演讲
+\end_layout
+
+\begin_layout Subsection*
+国际同行评议期刊文章
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+years{
+\end_layout
+
+\end_inset
+
+2018
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+Xiaojun Lin, 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+underline{Miao Cai}
+\end_layout
+
+\end_inset
+
+, Qiang Fu, et al. (2018), 
+\begin_inset Quotes eld
+\end_inset
+
+Does Hospital Competition Harm Inpatient Quality? Empirical Evidence from Shanxi, China
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+, 
+\emph on
+International Journal of Environmental Research and Public Health
+\emph default
+. DOI: 
+\begin_inset CommandInset href
+LatexCommand href
+name "10.3390/ijerph15102283"
+target "https://doi.org/10.3390/ijerph15102283"
+literal "false"
+
+\end_inset
+
+(SSCI Q1, IF: 2.468, rank: 38/164)
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+years{
+\end_layout
+
+\end_inset
+
+2018
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+underline{Miao Cai}
+\end_layout
+
+\end_inset
+
+, Echu Liu, Wei Li
+\begin_inset Formula $^\ast$
+\end_inset
+
+, et al. (2018), 
+\begin_inset Quotes eld
+\end_inset
+
+Rural Versus Urban Patients: Benchmarking the Outcomes of Patients with Acute Myocardial Infarction in Shanxi, China from 2013 to 2017
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+, 
+\emph on
+International Journal of Environmental Research and Public Health
+\emph default
+. DOI: 
+\begin_inset CommandInset href
+LatexCommand href
+name "10.3390/ijerph15091930"
+target "https://doi.org/10.3390/ijerph15091930"
+literal "false"
+
+\end_inset
+
+(SSCI Q1, IF: 2.468, rank: 38/164)
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+years{
+\end_layout
+
+\end_inset
+
+2018
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+underline{Miao Cai}
+\end_layout
+
+\end_inset
+
+, Echu Liu, Hongbing Tao
+\begin_inset Formula $^\ast$
+\end_inset
+
+, et al. (2018), 
+\begin_inset Quotes eld
+\end_inset
+
+Does A Medical Consortium Influence Health Outcomes of Hospitalized Cancer Patients? An Integrated Care Model in Shanxi, China
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+, 
+\emph on
+International Journal of Integrated Care
+\emph default
+. DOI: 
+\begin_inset CommandInset href
+LatexCommand href
+name "10.5334/ijic.3588"
+target "https://doi.org/10.5334/ijic.3588"
+literal "false"
+
+\end_inset
+
+(SSCI Q2, IF: 2.489, rank: 22/82)
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+years{
+\end_layout
+
+\end_inset
+
+2018
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+Nan Zhang, Xiang Hu, Qiao Zhang, Peng Bai, 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+underline{Miao Cai}
+\end_layout
+
+\end_inset
+
+, et al. (2018), 
+\begin_inset Quotes eld
+\end_inset
+
+Non-high-density lipoprotein cholesterol to high-density lipoprotein cholesterol ratio is an independent risk factor for diabetes mellitus: results from a population-based cohort
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+, 
+\emph on
+Journal of Diabetes
+\emph default
+. DOI: 
+\begin_inset CommandInset href
+LatexCommand href
+name "10.1111/1753-0407.12650"
+target "https://doi.org/10.1111/1753-0407.12650"
+literal "false"
+
+\end_inset
+
+(SCI Q2, IF: 3.298, rank: 64/145)
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+years{
+\end_layout
+
+\end_inset
+
+2017
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+underline{Miao Cai}
+\end_layout
+
+\end_inset
+
+, Echu Liu, Hongbing Tao
+\begin_inset Formula $^\ast$
+\end_inset
+
+, et al. (2017), 
+\begin_inset Quotes eld
+\end_inset
+
+Does Level of Hospital Matter? A Study of Mortality of Acute Myocardial Infarction Patients in Shanxi, China
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+. 
+\emph on
+American Journal of Medical Quality
+\emph default
+. DOI: 
+\begin_inset CommandInset href
+LatexCommand href
+name "10.1177/1062860617708608"
+target "https://doi.org/10.1177/1062860617708608"
+literal "false"
+
+\end_inset
+
+(SCI Q3, IF: 1.662, rank: 69/98)
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+years{
+\end_layout
+
+\end_inset
+
+2017
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+Xiaojun Lin, 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+underline{Miao Cai}
+\end_layout
+
+\end_inset
+
+, Hongbing Tao
+\begin_inset Formula $^\ast$
+\end_inset
+
+ (2017), 
+\begin_inset Quotes eld
+\end_inset
+
+Insurance status, inhospital mortality and length of stay in hospitalised patients in Shanxi, China: a cross-sectional study
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+, 
+\emph on
+BMJ Open
+\emph default
+. DOI: 
+\begin_inset CommandInset href
+LatexCommand href
+name "bmjopen-2017-015884"
+target "https://doi.org/10.1136/bmjopen-2017-015884"
+literal "false"
+
+\end_inset
+
+(SCI Q2, IF: 2.413, rank: 43/155)
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+years{
+\end_layout
+
+\end_inset
+
+2017
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+Manli Wang, Haiqing Fang, Hongbing Tao
+\begin_inset Formula $^\ast$
+\end_inset
+
+, Zhaohui Cheng, Xiaojun Lin, 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+underline{Miao Cai}
+\end_layout
+
+\end_inset
+
+, et al. (2017), 
+\begin_inset Quotes eld
+\end_inset
+
+Bootstrapping data envelopment analysis of efficiency and productivity of county public hospitals in Eastern, Central, and Western China after the public hospital reform
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+, 
+\emph on
+Journal of Huazhong University of Science and Technology
+\emph default
+. DOI: 
+\begin_inset CommandInset href
+LatexCommand href
+name "10.1007/s11596-017-1789-6"
+target "https://doi.org/10.1007/s11596-017-1789-6"
+literal "false"
+
+\end_inset
+
+(SCI Q4, IF: 0.948, rank: 273/293)
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+years{
+\end_layout
+
+\end_inset
+
+2016
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+Zhaohui Cheng, 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+underline{Miao Cai}
+\end_layout
+
+\end_inset
+
+, Hongbing Tao
+\begin_inset Formula $^\ast$
+\end_inset
+
+, et al. (2016), 
+\begin_inset Quotes eld
+\end_inset
+
+The efficiency and productivity measurement of rural township hospitals in China: a bootstrapping data envelopment analysis
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+, 
+\emph on
+BMJ Open
+\emph default
+. DOI: 
+\begin_inset CommandInset href
+LatexCommand href
+name "10.1136/bmjopen-2016-011911"
+target "https://doi.org/10.1136/bmjopen-2016-011911"
+literal "false"
+
+\end_inset
+
+(SCI Q1, IF: 2.369, rank: 38/155)
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+years{
+\end_layout
+
+\end_inset
+
+2016
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+Xiaojun Lin, Hongbing Tao
+\begin_inset Formula $^\ast$
+\end_inset
+
+, 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+underline{Miao Cai}
+\end_layout
+
+\end_inset
+
+, et al. (2016), 
+\begin_inset Quotes eld
+\end_inset
+
+A Systematic Review and Meta-analysis of the Relationship Between Hospital Volume and Outcome for Percutaneous Coronary Intervention
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+, 
+\emph on
+Medicine
+\emph default
+. DOI: 
+\begin_inset CommandInset href
+LatexCommand href
+name "10.1097/MD.0000000000002687"
+target "https://doi.org/10.1097/MD.0000000000002687"
+literal "false"
+
+\end_inset
+
+(SCI Q2, IF: 1.804, rank: 57/155)
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+years{
+\end_layout
+
+\end_inset
+
+2015
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+Qin Shu, 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+underline{Miao Cai}
+\end_layout
+
+\end_inset
+
+, Hong-bing Tao
+\begin_inset Formula $^\ast$
+\end_inset
+
+, et al. (2015), 
+\begin_inset Quotes eld
+\end_inset
+
+What does a Hospital Survey on Patient Safety reveal about patient safety culture of surgical units compared with that of other units? 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+, 
+\emph on
+Medicine
+\emph default
+. DOI: 
+\begin_inset CommandInset href
+LatexCommand href
+name "10.1097/MD.0000000000001074"
+target "https://doi.org/10.1097/MD.0000000000001074"
+literal "false"
+
+\end_inset
+
+(SCI Q2, IF: 2.133, rank: 40/155)
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+years{
+\end_layout
+
+\end_inset
+
+2015
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+Zhaohui Cheng, Hongbing Tao
+\begin_inset Formula $^\ast$
+\end_inset
+
+, 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+underline{Miao Cai}
+\end_layout
+
+\end_inset
+
+, et al. (2015), 
+\begin_inset Quotes eld
+\end_inset
+
+Technical efficiency and productivity of Chinese county hospitals: an exploratory study in Henan province, China
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+, 
+\emph on
+BMJ Open
+\emph default
+. DOI: 
+\begin_inset CommandInset href
+LatexCommand href
+name "10.1136/bmjopen-2014-007267"
+target "https://doi.org/10.1136/bmjopen-2014-007267"
+literal "false"
+
+\end_inset
+
+(SCI Q1, IF: 2.562, rank: 32/155)
+\end_layout
+
+\begin_layout Subsection*
+会议摘要
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+years{
+\end_layout
+
+\end_inset
+
+2020
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+underline{Miao Cai}
+\end_layout
+
+\end_inset
+
+, Kenton Johnston, Xiaojun Lin
+\begin_inset Formula $^\ast$
+\end_inset
+
+, et al. (2020), 
+\begin_inset Quotes eld
+\end_inset
+
+Does the medical consortium reform improve hospital efficiency? Evidence from secondary general hospitals in Shanxi, China, 2013-2017
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+. 
+\emph on
+International Conference on Health Policy Statistics
+\emph default
+ by American Statistical Association in San Diego, California, 2020. 
+\begin_inset CommandInset href
+LatexCommand href
+name "link"
+target "https://ww2.amstat.org/meetings/ichps/2020/onlineprogram/AbstractDetails.cfm?AbstractID=306703"
+literal "false"
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+years{
+\end_layout
+
+\end_inset
+
+2019
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+underline{Miao Cai$^
+\backslash
+ast$}
+\end_layout
+
+\end_inset
+
+, Eric Adjei Boakye, Ziqi Peng, et al. (2019), 
+\begin_inset Quotes eld
+\end_inset
+
+Disparity of The Disparities: A Comparison of Rural-Urban Disparity Regarding In-Hospital Mortalities Among Acute Myocardial Infarction Patients, An Observational Study Between China and The United States, 2013-2015
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+. 
+\emph on
+International Society for Pharmacoeconomics and Outcomes Research (ISPOR) 2019 
+\emph default
+. 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+years{
+\end_layout
+
+\end_inset
+
+2016
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+Xiaojun Lin, Hongbing Tao
+\begin_inset Formula $^\ast$
+\end_inset
+
+, 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+underline{Miao Cai}
+\end_layout
+
+\end_inset
+
+, et al. (2016), 
+\begin_inset Quotes eld
+\end_inset
+
+Health insurance and quality and efficiency of medical care for patients with acute myocardial infraction in tertiary hospitals in Shanxi, China: a retrospective study
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+. 
+\emph on
+The Lancet-CAMS Health Summit
+\emph default
+. DOI: 
+\begin_inset CommandInset href
+LatexCommand href
+name "10.1016/S0140-6736(16)31997-3"
+target "https://doi.org/10.1016/S0140-6736(16)31997-3"
+literal "false"
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+years{
+\end_layout
+
+\end_inset
+
+2016
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+Manli Wang, Hongbing Tao
+\begin_inset Formula $^\ast$
+\end_inset
+
+, Haiqing Fang, Zhaohui Cheng, 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+underline{Miao Cai}
+\end_layout
+
+\end_inset
+
+, et al. (2016), 
+\begin_inset Quotes eld
+\end_inset
+
+Patient safety culture in surgical departments versus other departments in county hospitals of Hubei province, China: a cross-sectional survey
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+. 
+\emph on
+The Lancet-CAMS Health Summit
+\emph default
+. DOI: 
+\begin_inset CommandInset href
+LatexCommand href
+name "10.1016/S0140-6736(16)31998-5"
+target "https://doi.org/10.1016/S0140-6736(16)31998-5"
+literal "false"
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+years{
+\end_layout
+
+\end_inset
+
+2015
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+Zhaohui Cheng, Hongbing Tao
+\begin_inset Formula $^\ast$
+\end_inset
+
+, 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+underline{Miao Cai}
+\end_layout
+
+\end_inset
+
+, et al. (2015), 
+\begin_inset Quotes eld
+\end_inset
+
+Using a two-stage data envelopment analysis to estimate the efficiency of county hospitals in China: A panel data study
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+. 
+\emph on
+The Lancet-CAMS Health Summit
+\emph default
+. DOI:
+\begin_inset CommandInset href
+LatexCommand href
+name "10.1016/S0140-6736(15)00645-5"
+target "https://doi.org/10.1016/S0140-6736(15)00645-5"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+会议报告
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+years{
+\end_layout
+
+\end_inset
+
+2019
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+Xiaojun Lin, Kenton Johnston, 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+underline{Miao Cai}
+\end_layout
+
+\end_inset
+
+. (March 2019), 
+\begin_inset Quotes eld
+\end_inset
+
+Does the medical consortium reform improve hospital efficiency? Evidence from secondary general hospitals in Shanxi, China, 2013-2017
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+, 
+\emph on
+The 1st Health Economics and Policy Forum
+\emph default
+ at Peking University, Beijing, China
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+years{
+\end_layout
+
+\end_inset
+
+2018
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+underline{Miao Cai}
+\end_layout
+
+\end_inset
+
+, Echu Liu, Hongbing Tao
+\begin_inset Formula $^\ast$
+\end_inset
+
+, et al. (May, 2018), 
+\begin_inset Quotes eld
+\end_inset
+
+Does A Medical Consortium Influence Health Outcomes of Hospitalized Cancer Patients: An Integrated Care Model in Shanxi, China
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+, 
+\emph on
+2018 Biennial Conference 
+\begin_inset Quotes eld
+\end_inset
+
+Advances in Health Policy and Healthcare: The Road Ahead
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+
+\emph default
+ by China Health Policy and Management Society (CHPAMS) at Yale University, New Haven, Connecticut, USA
+\end_layout
+
+\begin_layout Subsection*
+中文同行评议期刊文章
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+years{
+\end_layout
+
+\end_inset
+
+2019
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+陈默, 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+underline{蔡苗}
+\end_layout
+
+\end_inset
+
+, 黄阿红, 沈梦雪, 吴其, 张泽苗, 乐虹
+\begin_inset Formula $^\ast$
+\end_inset
+
+. 基于K-means聚类与支持向量机的大病患者住院费用影响因素与控制策略研究. 
+\emph on
+中国医院管理
+\emph default
+. 2019, 39(5): 45-47. 
+\begin_inset CommandInset href
+LatexCommand href
+name "Link"
+target "http://d.old.wanfangdata.com.cn/Periodical/zgyygl201905018"
+literal "false"
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+years{
+\end_layout
+
+\end_inset
+
+2017
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+underline{蔡苗}
+\end_layout
+
+\end_inset
+
+, Echu Liu, 陶红兵
+\begin_inset Formula $^\ast$
+\end_inset
+
+, 程兆辉, 林小军. 市场竞争对医院技术效率的影响——基于河南省和江苏省的实证研究. 
+\emph on
+中国医院管理
+\emph default
+. 2017, 37(6): 22-24. 
+\begin_inset CommandInset href
+LatexCommand href
+name "Link"
+target "http://www.cnki.com.cn/Article/CJFDTotal-YYGL201706012.htm"
+literal "false"
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+years{
+\end_layout
+
+\end_inset
+
+2017
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+Leidy S. Delgado, 陶红兵
+\begin_inset Formula $^\ast$
+\end_inset
+
+, 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+underline{蔡苗}
+\end_layout
+
+\end_inset
+
+, Ashleigh Oguagha. 
+\begin_inset Quotes eld
+\end_inset
+
+肿瘤多学科团队实施现状及影响因素研究
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+. 
+\emph on
+中国医疗管理科学
+\emph default
+. 2017, 7(3): 41-46. 
+\begin_inset CommandInset href
+LatexCommand href
+name "Link"
+target "http://www.cnki.com.cn/Article/CJFDTOTAL-YLGL201703008.htm"
+literal "false"
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+years{
+\end_layout
+
+\end_inset
+
+2017
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+夏述旭, 陶红兵
+\begin_inset Formula $^\ast$
+\end_inset
+
+, 都丽婷, 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+underline{蔡苗}
+\end_layout
+
+\end_inset
+
+, 林小军, 林海锋. 
+\begin_inset Quotes eld
+\end_inset
+
+“互联网+” 背景下移动医疗质量与安全问题分析及强策研究
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+. 
+\emph on
+中国卫生质量管理
+\emph default
+. 2017, 24(3): 82 - 85. 
+\begin_inset CommandInset href
+LatexCommand href
+name "Link"
+target "http://www.cnki.com.cn/Article/CJFDTOTAL-WSJG201703030.htm"
+literal "false"
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+years{
+\end_layout
+
+\end_inset
+
+2017
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+何金露, 陶红兵
+\begin_inset Formula $^\ast$
+\end_inset
+
+, 林小军, 肖婷, 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+underline{蔡苗}
+\end_layout
+
+\end_inset
+
+. 
+\begin_inset Quotes eld
+\end_inset
+
+不同所有制医院医疗质量差异比较与思考
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+. 
+\emph on
+中国卫生质量管理
+\emph default
+. 2017, 24(4): 18 - 20. 
+\begin_inset CommandInset href
+LatexCommand href
+name "Link"
+target "http://www.cnki.com.cn/Article/CJFDTOTAL-WSJG201704010.htm"
+literal "false"
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+years{
+\end_layout
+
+\end_inset
+
+2016
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+林海锋, 陶红兵
+\begin_inset Formula $^\ast$
+\end_inset
+
+, 程兆辉, 林小军, 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+underline{蔡苗}
+\end_layout
+
+\end_inset
+
+. 
+\begin_inset Quotes eld
+\end_inset
+
+河南部分县级中医院的医疗资源利用效率及其影响因素分析
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+. 
+\emph on
+中华医院管理杂志
+\emph default
+. 2016, 32(2): 117 - 120. 
+\begin_inset CommandInset href
+LatexCommand href
+name "Link"
+target "http://xuewen.cnki.net/CMFD-1016781136.nh.html"
+literal "false"
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+years{
+\end_layout
+
+\end_inset
+
+2016
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+左玉玲, 陶红兵
+\begin_inset Formula $^\ast$
+\end_inset
+
+, 程兆辉, 林海锋, 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+underline{蔡苗}
+\end_layout
+
+\end_inset
+
+. 
+\begin_inset Quotes eld
+\end_inset
+
+基于 Malmquist 指数的河南省民营医院效率变化分析
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+. 
+\emph on
+中国医院管理
+\emph default
+.2016; 36(6):35-37. 
+\begin_inset CommandInset href
+LatexCommand href
+name "Link"
+target "http://www.cnki.com.cn/Article/CJFDTOTAL-YYGL201606020.htm"
+literal "false"
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+years{
+\end_layout
+
+\end_inset
+
+2016
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+张潘, 陶红兵
+\begin_inset Formula $^\ast$
+\end_inset
+
+, 林小军, 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+underline{蔡苗}
+\end_layout
+
+\end_inset
+
+. 
+\begin_inset Quotes eld
+\end_inset
+
+我国医疗联合体的质量与安全现状及对策探讨
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+. 
+\emph on
+中国医院管理
+\emph default
+. 2016, 36(11): 52-54. 
+\begin_inset CommandInset href
+LatexCommand href
+name "Link"
+target "http://www.cnki.com.cn/Article/CJFDTOTAL-YYGL201611027.htm"
+literal "false"
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+years{
+\end_layout
+
+\end_inset
+
+2016
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+林小军, 陶红兵
+\begin_inset Formula $^\ast$
+\end_inset
+
+, 张士靖, 程兆辉, 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+underline{蔡苗}
+\end_layout
+
+\end_inset
+
+, 刘海通, 林海锋. 
+\begin_inset Quotes eld
+\end_inset
+
+医院效率研究演进路径可视化分析
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+. 
+\emph on
+中国医院管理
+\emph default
+. 2016, 36(4): 27-29. 
+\begin_inset CommandInset href
+LatexCommand href
+name "Link"
+target "http://www.cnki.com.cn/Article/CJFDTOTAL-YYGL201604015.htm"
+literal "false"
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+years{
+\end_layout
+
+\end_inset
+
+2015
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+underline{蔡苗}
+\end_layout
+
+\end_inset
+
+, 陶红兵
+\begin_inset Formula $^\ast$
+\end_inset
+
+. 
+\begin_inset Quotes eld
+\end_inset
+
+重症监护室不良事件报告现状分析和应对策略
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+. 
+\emph on
+中国卫生质量管理
+\emph default
+. 2015, 22(2): 11-14. 
+\begin_inset CommandInset href
+LatexCommand href
+name "Link"
+target "http://www.cnki.com.cn/Article/CJFDTOTAL-WSJG201502008.htm"
+literal "false"
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+years{
+\end_layout
+
+\end_inset
+
+2015
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+ 林海锋, 陶红兵
+\begin_inset Formula $^\ast$
+\end_inset
+
+, 程兆辉, 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+underline{蔡苗}
+\end_layout
+
+\end_inset
+
+, 林小军. 
+\begin_inset Quotes eld
+\end_inset
+
+武汉地区医院产科资源利用效率及影响因素研究
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+. 
+\emph on
+中国医疗管理科学
+\emph default
+. 2015, 5(5): 9 - 13. 
+\begin_inset CommandInset href
+LatexCommand href
+name "Link"
+target "http://www.cnki.com.cn/Article/CJFDTOTAL-YLGL201505004.htm"
+literal "false"
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+years{
+\end_layout
+
+\end_inset
+
+2013
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+underline{蔡苗}
+\end_layout
+
+\end_inset
+
+, 陶红兵
+\begin_inset Formula $^\ast$
+\end_inset
+
+. 
+\begin_inset Quotes eld
+\end_inset
+
+内科和外科系统医护人员不良事件报告情况及阻碍因素
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+. 
+\emph on
+中国医院
+\emph default
+. 2013, 17(8): 31 – 33. 
+\begin_inset CommandInset href
+LatexCommand href
+name "Link"
+target "http://www.cnki.com.cn/Article/CJFDTOTAL-ZGYU201308016.htm"
+literal "false"
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+years{
+\end_layout
+
+\end_inset
+
+2013
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+underline{蔡苗}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $^\ast$
+\end_inset
+
+, 徐小兵, 蔡海洋, 常瑞, 林小军, 黄艳然. 
+\begin_inset Quotes eld
+\end_inset
+
+医疗不良事件识别途径及干预策略
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+. 
+\emph on
+医学与社会
+\emph default
+. 2013, 26(9): 20 – 22. 
+\begin_inset CommandInset href
+LatexCommand href
+name "Link"
+target "http://www.cnki.com.cn/Article/CJFDTOTAL-YXSH201309007.htm"
+literal "false"
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+years{
+\end_layout
+
+\end_inset
+
+2013
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+underline{蔡苗}
+\end_layout
+
+\end_inset
+
+, 陶红兵
+\begin_inset Formula $^\ast$
+\end_inset
+
+, 林小军, 徐小兵, 蔡海洋, 陈飞翔. 
+\begin_inset Quotes eld
+\end_inset
+
+阻碍医护人员报告医疗不良事件的影响因素分析
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+. 
+\emph on
+中国卫生质量管理
+\emph default
+. 2013, 20(5): 41 – 43. 
+\begin_inset CommandInset href
+LatexCommand href
+name "Link"
+target "http://www.cqvip.com/qk/98273x/201305/47221843.html"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+已投稿论文
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+years{
+\end_layout
+
+\end_inset
+
+2019
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+underline{Miao Cai}
+\end_layout
+
+\end_inset
+
+, Mohammad Ali Alamdar Yazdi, Qiong Hu, Amir Mehdizadeh, Aleksandr Vinel, Karen C. Davis, Fadel Megahed, Steven E. Rigdon
+\begin_inset Formula $^\ast$
+\end_inset
+
+. 
+\begin_inset Quotes eld
+\end_inset
+
+The association between crashes and safety-critical events: synthesized evidence from crash reports and naturalistic driving data among commercial truck drivers
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+, 已投稿至
+\emph on
+Transportation Research Part C: Emerging Technologies
+\emph default
+. (SCI Q1, IF: 5.775, rank: 3/37)
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+years{
+\end_layout
+
+\end_inset
+
+2019
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+underline{Miao Cai}
+\end_layout
+
+\end_inset
+
+, Rong Yang, Shaoping Yang, Tongzhang Zheng, Guanghui Dong, Hualiang Lin, Steven E. Rigdon, Hong Xian, Leslie J. Hinyard, Pamela K. Xaverius, Thomas E. Burroughs, Echu Liu, Daire R. Jansson, Bin Zhang
+\begin_inset Formula $^\ast$
+\end_inset
+
+, Zhengmin Qian
+\begin_inset Formula $^\ast$
+\end_inset
+
+. 
+\begin_inset Quotes eld
+\end_inset
+
+Association between maternal physical exercise and the risk of preterm birth: A case-control study in Wuhan, China
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+, 已投稿至
+\emph on
+Journal of Epidemiology & Community Health
+\emph default
+. (SCI Q1, IF: 3.872, rank: 10/98)
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+years{
+\end_layout
+
+\end_inset
+
+2019
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+underline{Miao Cai}
+\end_layout
+
+\end_inset
+
+, Echu Liu, Steven E. Rigdon, Daire Jansson, Leslie Hinyard, Zhengmin Qian, Jen-jen Chang. 
+\begin_inset Quotes eld
+\end_inset
+
+Validating Two Multiple Indicators and Three Single Numeric Score Charlson or Elixhauser Comorbidity Indices Among the Population of Shanxi, China
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+, 已投稿至
+\emph on
+Clinical Epidemiology
+\emph default
+. (SCI Q1, IF: 3.178, rank: 40/186)
+\begin_inset Newline newline
+\end_inset
+
+ Xiaojun Lin, Kenton Johnston, Miao Cai
+\begin_inset Formula $*$
+\end_inset
+
+. 
+\begin_inset Quotes eld
+\end_inset
+
+Medical consortium and hospital effciency: Evidence from China
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+, 已投稿至
+\emph on
+Social Science & Medicine
+\emph default
+. (SCI Q1, IF: 3.087, rank: 10/186)
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+years{
+\end_layout
+
+\end_inset
+
+2019
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+Yan Xie, Benjamin Bowe, Yan Yan, 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+underline{Miao Cai}
+\end_layout
+
+\end_inset
+
+, Ziyad Al-Aly. 
+\begin_inset Quotes eld
+\end_inset
+
+County-level Contextual Characteristics and Disparities in Life Expectancy
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+, 已投稿至
+\emph on
+Mayo Clinic Proceedings
+\emph default
+. (SCI Q1, IF: 7.091, rank: 12/160)
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+years{
+\end_layout
+
+\end_inset
+
+2019
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+Qiong Hu, Amir Mehdizadeh, Nasrin Mohabbati Kalejahi, Mohammad Ali Alamdar Yazdi, 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+underline{Miao Cai}
+\end_layout
+
+\end_inset
+
+, Aleksandr Vinel, Steven E. Rigdon, Karen C. Davis, Fadel M. Megahed
+\begin_inset Formula $^\ast$
+\end_inset
+
+. 
+\begin_inset Quotes eld
+\end_inset
+
+Bridging the Gap between Transportation Safety Research and its Incorporation in Optimization Models: a Detailed Review and Perspective
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+, 已投稿至
+\emph on
+Accident Analysis & Prevention
+\emph default
+, (SSCI Q1, IF: 3.058, rank: 1/16)
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+years{
+\end_layout
+
+\end_inset
+
+2019
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+Benjamin Bowe, Yan Xie, Yan Yan, 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+underline{Miao Cai}
+\end_layout
+
+\end_inset
+
+, Ziyad Al-Aly. 
+\begin_inset Quotes eld
+\end_inset
+
+Integrative Non-linear Exposure-Response Model for Estimation of Burden of Chronic Kidney Disease Attributable to Ambient Fine Particulate Matter Air Pollution
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+, 已投稿至
+\emph on
+BMJ Global Health
+\emph default
+. 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+years{
+\end_layout
+
+\end_inset
+
+2019
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+Eric Adjei Boakye, Nosayaba Osazuwa-Peters, Betty Chen, 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+underline{Miao Cai}
+\end_layout
+
+\end_inset
+
+, Betelihem Tobo, Sai Challapalli, Paula Buchanan, Jay Piccirillo. 
+\begin_inset Quotes eld
+\end_inset
+
+Multilevel correlates of and development of a nomogram for in-hospital mortality among hospitalized head and neck cancer patients
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+, 已投稿至
+\emph on
+JAMA Otolaryngology-Head & Neck Surgery
+\emph default
+.
+\end_layout
+
+\begin_layout Section*
+R包开发
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+years{
+\end_layout
+
+\end_inset
+
+2019
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+R Package: 
+\emph on
+NDS
+\emph default
+. 
+\begin_inset Quotes eld
+\end_inset
+
+An R package for manipulating naturalistic driving datasets
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+ Source: 
+\begin_inset CommandInset href
+LatexCommand href
+target "https://github.com/caimiao0714/NDS"
+literal "false"
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+years{
+\end_layout
+
+\end_inset
+
+2017
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+R Package: 
+\emph on
+MiaoCom
+\emph default
+. 
+\begin_inset Quotes eld
+\end_inset
+
+A R package for calculating comorbidity indexes (i.e. Charlson Comorbidity Index, Elixhauser Comorbidity Index, and C3 Index) for epidemiologists
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+ Source: 
+\begin_inset CommandInset href
+LatexCommand href
+target "https://github.com/caimiao0714/MiaoCom"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+网站开发和维护
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+years{
+\end_layout
+
+\end_inset
+
+2019
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+Supplementary materials for 
+\begin_inset Quotes eld
+\end_inset
+
+Bridging the Gap between Transportation Safety Research and its Incorporation in Optimization Models: a Detailed Review and Perspective
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+, a manuscript submitted to 
+\emph on
+Transportation Research Part C: Emerging Technologies
+\emph default
+.
+\begin_inset Newline newline
+\end_inset
+
+ Source: 
+\begin_inset CommandInset href
+LatexCommand href
+target "https://caimiao0714.github.io/TrafficSafetyReviewRmarkdown/"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%
+\backslash
+vspace{1cm}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset VSpace vfill
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%
+\backslash
+hrulefill
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size scriptsize
+最新更新日期: 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+today
+\end_layout
+
+\end_inset
+
+\SpecialChar softhyphen
+ •\SpecialChar softhyphen
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+% ---- PLEASE LEAVE THIS BACKLINK FOR ATTRIBUTION AS PER CC-LICENSE
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+Typeset in 
+\begin_inset CommandInset href
+LatexCommand href
+name " %\fontspec{Times New Roman} \XeTeX "
+target "https://caimiao0714.github.io/cv/cn.pdf"
+literal "true"
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+% ---- FILL IN THE FULL URL TO YOUR CV HERE
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset href
+LatexCommand href
+target "https://caimiao0714.github.io/cv/cn.pdf"
+literal "false"
+
+\end_inset
+
+
+\size default
+ 
+\end_layout
+
+\end_body
+\end_document
