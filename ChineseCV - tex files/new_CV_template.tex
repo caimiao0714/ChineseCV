@@ -1,0 +1,319 @@
+\documentclass[twoside,a4paper,11pt]{amsart}
+
+%%%%%%%%%%%%%%%%%% Non-Latin Languages Support %%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[adobefonts,nocap]{ctex}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage[twoside]{geometry}
+\geometry{margin=1in}
+%usepackage[raggedright]{titlesec}
+
+\usepackage{bm}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amstext}
+\usepackage{amssymb}
+\usepackage[numbers]{natbib}
+\usepackage{graphicx}
+\usepackage{fontawesome}
+\usepackage{hyperref}
+\hypersetup
+{
+  pdfauthor={Feng Li, ??},
+  pdfsubject={Feng Li, ?? Curriculum Vitæ},
+  pdftitle={Feng Li, ?? Curriculum Vitæ},
+  pdfkeywords={Feng Li, ??, Stockhlom University, Statistics, CV, Resume, http://feng.li/}
+}
+
+%% Fonts
+% \usepackage[garamond]{mathdesign}
+%\DeclareRobustCommand\nobreakspace{\leavevmode\nobreak\ } % Bug in fontspec
+%\usepackage{inconsolata}
+
+\usepackage[adobe-utopia]{mathdesign}
+\usepackage[T1]{fontenc}
+
+%% Remove the spacing between paragraphs and have a small paragraph indentation
+\setlength{\parskip}{.1cm}
+\setlength{\parindent}{1em}
+
+%% Remove space around section headings.
+\usepackage[compact,raggedright]{titlesec}
+\titlespacing{\section}{0pt}{0ex}{0ex}
+\titlespacing{\subsection}{0pt}{0ex}{0ex}
+\titlespacing{\subsubsection}{0pt}{0ex}{0ex}
+
+%% Fancy symbols
+\usepackage{marvosym}
+
+%% Fancy header and footer
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+
+\fancyhead[RO,LE]{Feng Li}
+\fancyhead[C]{}
+\fancyhead[LO,RE]{\emph{Curriculum Vitæ}}
+
+\fancyfoot[C]{}
+\fancyfoot[LO,RE]{\vspace{0.5cm}\emph{Revised on \today}}
+\fancyfoot[RO,LE]{\vspace{0.5cm}\thepage}
+
+\fancypagestyle{plain}{%
+\fancyhf{} % clear all header and footer fields
+\fancyhead[L]{\Huge \textbf{Dr. Feng Li}}
+
+\fancyhead[R]{\emph{Curriculum Vitæ}}
+\fancyfoot[LO,RE]{\vspace{0.5cm}\emph{Revised on \today}}
+\fancyfoot[C]{}
+\fancyfoot[LE,RO]{\vspace{0.5cm}\thepage}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}}
+
+\begin{document}
+\thispagestyle{plain}
+
+\hrule
+\section*{Personal Information}
+\begin{tabular}{l p{4cm} l  l l}
+  Given name/Surname:& Feng/Li& Name in Chinese: &   ??\\
+  Place of birth: & Inner Mongolia, China & Nationality:& China\\
+  Gender: & Male & Languages: & English, Chinese  \\
+\end{tabular}
+
+\section*{Work Information}
+
+\texttt{
+\begin{tabular}{ l l |  l  l }
+  Assistant Professor and Associate Dean       && \Email        &feng.li@cufe.edu.cn\\
+  School of Statistics and Mathematics         && \Telefon      &+86-(0)10-6228-8548\\
+  Central University of Finance and Economics  && \faGlobe      &\url{http://feng.li/} \\
+  100081 Beijing, China                        &&
+\end{tabular}}
+
+\section*{Education}
+
+\begin{tabular}{ l  p{0.75\textwidth} l}
+  2008---2013 &\textbf{Ph.D. of Statistics}, Stockholm University, Sweden.\\
+              &Supervisor: Prof. Mattias Villani.\\
+
+              &Thesis topic: \emph{Bayesian Modeling of Conditional Densities}. \\
+              &Thesis opponent: Prof. Sylvia Frühwirth-Schnatter.\\
+              &Assistant supervisor: Prof. Daniel Thorburn.\\
+  2007---2008 & \textbf{Master of Statistics}, Darlarna
+                University, Sweden.\\
+
+ 2003---2007 & \textbf{Bachelor of Statistics}, Renmin
+  University of China, China.\\
+\end{tabular}
+
+\section*{Research Interests}
+
+Bayesian Inference $\circ$ Econometrics \& Forecasting $\circ$ Multivariate
+Modeling $\circ$ Statistical Computing
+
+
+\section*{Research Projects}
+\begin{itemize}
+\item Efficient Bayesian Flexible Density Methods with High Dimensional Financial Data
+  funded by National Natural Science Foundation of China, (2016-). Principal investigator.
+
+\item Bayesian Multivariate Density Estimation Methods for Complex Data funded by Ministry
+  of Education, China (2014-). Principal investigator
+
+
+\end{itemize}
+
+\nocite{li2018improving}
+\nocite{pino2018cohort}
+\nocite{li2016bigdata}
+\nocite{li2013phd}
+\nocite{li2013efficient}
+\nocite{li2011modeling}
+\nocite{li2010flexible}
+
+\renewcommand\refname{Selected Publications}
+%\bibliographystyle{biometrika}
+\bibliographystyle{unsrtnat}
+\bibliography{full,References}
+
+{\footnotesize (Complete publication list is available at Google Scholar
+  \url{https://scholar.google.com/citations?user=elq0VRcAAAAJ})}
+
+\section*{Referee Work}
+\begin{itemize}
+\item  \emph{Journal of Business and Economics Statistics}
+\item  \emph{International Journal of Forecasting}
+\item  \emph{Australian \& New Zealand Journal of Statistics}
+\item  \emph{Journal of Official Statistics}
+\item  \emph{Quantitative Finance}
+\item  \emph{Information Sciences}
+\item  \emph{Studies in Nonlinear Dynamics \& Econometrics}
+
+\end{itemize}
+
+
+
+\section*{Teaching}
+\begin{tabular}{p{6.5cm}lll}
+  {Statistical Computing} & undergraduate level& CUFE & 2014-2018\\
+  {Distributed Computing for Big Data} & graduate level & CUFE & 2014-2017\\
+  {Statistics Case Studies} & graduate levle & CUFE & 2017-2018\\
+  {Bayesian Statistics}$^*$&graduate level& SU,CUFE&2013,2017\\
+  {Python for Big Data} & graduate level & CUFE & 2015\\
+  {Programming with R}$^*$&undergradte \& gradute level&LIU&  2012\\
+  {Statistical Software}&undergradte level& CUFE& 2014\\
+  {Time Series Analysis}& graduate levle & CUFE & 2015-2016\\
+  {Econometrics}$^*$ & undergraduate level&  CUFE& 2013-2015\\
+  {Academic English in Statistics}(Statistcs Frontiers)$^*$&graduate level&CUFE& 2013-2016\\
+  {Regression}$^*$&undergradte level&SU&2008--2013\\
+  {Time Series Analysis}$^*$&undergradte level&SU&2008--2013\\
+\end{tabular}
+{\footnotesize (\emph{All course materials are available at
+    \emph{\url{https://feng.li/teaching/}}. Courses marked with * are taught in English.})}
+
+
+\section*{Recent Presentations Invited Talks}
+\begin{itemize}
+
+\item International Symposium on Financial Engineering and Risk Management 2018, June 13,
+2018, Shanghai, China.
+
+\item School of Data Science, Fudan University, Oct 28-30, 2017, Shanghai, China
+
+\item IMS-China International Conference on Statistics and Probability, June 28 – July 1,
+2017, Nanning, China.
+
+\item The 1st International Conference on Econometrics and Statistics, Hong Kong, 15-17
+June 2017.
+
+\item The 2016 World Meeting of the International Society for Bayesian Analysis, Jun
+13—17, 2016, Sardinia, Italy.
+
+\item IMS-China International Conference on Statistics and Probability, June 1-4, 2015,
+Kunming, China.
+
+\item International Symposium on Financial Engineering and Risk Management 2014, June 27,
+2014, Beijing, China.
+
+\item Guanghua School of Management Peking University, Oct 14, 2013, Beijing, China
+
+\item The Stockholm University Forskardagarna, 2-3 Oct, 2013, Stockholm, Sweden.
+
+\item The 59th World Statistics Congress, August 25-29, 2013, Hong Kong.
+
+\item The 2012 World Meeting of the International Society for Bayesian Analysis, Jun
+25---29, 2012, Japan. Poster presentation.
+
+\item The third Linnaeus University Workshop in Stochastic Analysis and Applications, May
+24---25, Växjö. Invited speaker.
+
+\item Seminar at Department of Energy and Technology, Swedish University of Agricultural
+Sciences, Apr 16, 2012, Sweden.
+
+\item Workshop on ``Analysis of High-Dimensional Data'', Jönköping International Business
+School, Feb 16---17, 2012, Sweden. Invited speaker.
+
+\item The LiU Seminar Series in Statistics and Mathematical Statistics, Linköping
+University, Oct 11, 2011, Sweden. Invited speaker.
+
+\item The 42nd Winter Conference in Statistics --- Incomplete data: semi-parametric and
+Bayesian methods, Mar 6---10, 2011, Sweden. Invited speaker.
+
+\item The 2010 World Meeting of the International Society for Bayesian Analysis, Jun
+3---8, 2010, Spain. Poster presentation.
+
+\item Seminar at Department of statistics, Uppsala University, Sep 16, 2009, Sweden.
+
+\end{itemize}
+
+
+\section*{Other Conferences \& Activities}
+\begin{itemize}
+\item Visiting Devision of Statistics, Department of Computer and Information
+  Science, Linköping University, Sweden, Sep 1, 2011 --- Feb 29,2012.
+
+\item Intensive PhD course: ``Introduction to Bayesian Analysis and MCMC, and,
+  Hierarchical Modelling of Spatial and Temporal Data'' by Alan Gelfand (Duke
+  University) and Sujit Sahu (University of Southampton), June 7---10,
+    2011, University of Southampton, UK.
+
+\item Intensive PhD course: ``Semi-Parametric Bayesian Inference in
+  Econometrics'' by Peter Rossi (University of Chicago), May 27---29,
+    2009, Erasmus University Rotterdam, The Netherlands.
+
+\item Conference ``Modeling and Forecasting Economic and Financial Time Series with State
+  Space models'', Central Bank of Sweden, Oct 17---18, 2008.
+\end{itemize}
+
+\section*{Awards \& Grants}
+\begin{itemize}
+
+\item The 2014 Cramér Prize, Mar 2014.
+
+\item International Society for Bayesian Analysis junior travel award,
+  Jun, 2012.
+
+\item Travel grant from The Knut and Alice Wallenberg Foundation, Aug,
+    2011, Sweden.
+
+\item Outstanding graduate student, honored by Beijing Municipal Education
+  Commission, Jul, 2007, China.
+
+\end{itemize}
+
+
+\section*{Computer Skills}
+\begin{itemize}
+\item  Proficient in \textbf{R} and Python and Matlab.
+
+\item Skilled in GNU/Linux and have experience on large Linux clusters with Hadoop/Spark.
+
+\item  Good at C/C++.
+\end{itemize}
+
+
+
+
+
+\section*{Conferences Organized}
+
+\begin{itemize}
+\item 2017: The 2017 Beijing Workshop on Forecasting.
+\item 2016: Annual Conference of Chinese Association of Quantitative Economics.
+\item 2014: Executive secretary of International Symposium on Financial Engineering and
+Risk Management 2014.
+
+\item 2013: The Swedish Research Students Conference in Statistics.
+\item  2013:  2012–2013, PhD Study Group, Department of Statistics, Stockholm University.
+\end{itemize}
+
+\section*{Recent Academic Visits}
+
+\begin{itemize}
+\item 2014 Aug, Toronto University, Canada
+\item 2013 Oct, Stockholm University, Sweden
+\item 2011 Sep – 2012 March, Linköping University, Sweden
+\item 2011 June, University of Southampton, UK
+\item 2009 May, Erasmus University Rotterdam, The Netherlands
+\end{itemize}
+
+% \section*{References}
+% \begin{itemize}
+% \item Prof. Mattias Villani, Division of Statistics and Machine Learning, Department of
+%   Computer and Information Science, Linköping University, SE-581 83 Linköping,
+%   Sweden. Email: \url{mattias.villani@liu.se}.
+
+% \item Prof. Fan Yang Wallentin, Department of Statistics, Uppsala
+%   University, SE-751 20 Uppsala, Sweden. Email: \url{fan.yang@statistik.uu.se}.
+
+% \item Prof. Robert Kohn, Australian School of Business, University of New
+%   South Wales, UNSW, Sydney 2052, Australia. Email: \url{r.kohn@unsw.edu.au}.
+
+% \end{itemize}
+
+% \footnotesize{\emph{* Detailed contact information available upon request.}}
+\end{document}
+
+%%% Local Variables:
+%%% TeX-engine: xetex
+%%% End:
