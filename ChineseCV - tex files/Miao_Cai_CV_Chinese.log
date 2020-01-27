@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.10.17)  1 DEC 2019 20:05
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.10.17)  26 JAN 2020 20:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -22,8 +22,21 @@ File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(c:/texlive/2018/texmf-dist/tex/latex/fontspec/fontspec.sty
-(c:/texlive/2018/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(c:/texlive/2018/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
+
+(c:/texlive/2018/texmf-dist/tex/latex/greek-fontenc/lgrenc.def
+File: lgrenc.def 2015/12/07 v0.13.1 LGR Greek font encoding definitions
+
+(c:/texlive/2018/texmf-dist/tex/latex/greek-fontenc/greek-fontenc.def
+File: greek-fontenc.def 2015/08/04 v0.13 Common Greek font encoding definitions
+
+))
+(c:/texlive/2018/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
+(c:/texlive/2018/texmf-dist/tex/latex/ctex/ctex.sty
 (c:/texlive/2018/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2018-09-24 L3 programming layer (loader) 
 
@@ -174,6 +187,9 @@ File: l3xdvidpfmx.def 2018-09-24 v L3 Experimental driver: xdvipdfmx
 \g__driver_image_int=\count167
 \g__driver_pdf_object_int=\count168
 ))
+Package: ctex 2018/05/02 v2.4.14 Chinese adapter in LaTeX (CTEX)
+
+(c:/texlive/2018/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 Package: xparse 2018-09-24 L3 Experimental document command parser
 \l__xparse_current_arg_int=\count169
 \g__xparse_grabber_int=\count170
@@ -181,22 +197,283 @@ Package: xparse 2018-09-24 L3 Experimental document command parser
 \l__xparse_mandatory_args_int=\count172
 \l__xparse_v_nesting_int=\count173
 )
+(c:/texlive/2018/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2018-09-24 LaTeX2e option processing using LaTeX3 keys
+)
+(c:/texlive/2018/texmf-dist/tex/latex/ctex/ctexhook.sty
+Package: ctexhook 2018/05/02 v2.4.14 Document and package hooks (CTEX)
+)
+(c:/texlive/2018/texmf-dist/tex/latex/ctex/ctexpatch.sty
+Package: ctexpatch 2018/05/02 v2.4.14 Patching commands (CTEX)
+)
+(c:/texlive/2018/texmf-dist/tex/latex/base/fix-cm.sty
+Package: fix-cm 2015/01/14 v1.1t fixes to LaTeX
+
+(c:/texlive/2018/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+))
+(c:/texlive/2018/texmf-dist/tex/latex/ms/everysel.sty
+Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
+)
+\l__ctex_tmp_int=\count174
+\l__ctex_tmp_box=\box41
+\l__ctex_tmp_dim=\dimen135
+\g__ctex_font_size_flag=\count175
+
+(c:/texlive/2018/texmf-dist/tex/latex/ctex/config/ctexopts.cfg
+File: ctexopts.cfg 2018/05/02 v2.4.14 Option configuration file (CTEX)
+)
+(c:/texlive/2018/texmf-dist/tex/latex/ctex/engine/ctex-engine-xetex.def
+File: ctex-engine-xetex.def 2018/05/02 v2.4.14 XeLaTeX adapter (CTEX)
+
+(c:/texlive/2018/texmf-dist/tex/xelatex/xecjk/xeCJK.sty
+Package: xeCJK 2018/04/30 v3.7.1 Typesetting CJK scripts with XeLaTeX
+
+(c:/texlive/2018/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.sty
+Package: xtemplate 2018-09-24 L3 Experimental prototype document functions
+\l__xtemplate_tmp_dim=\dimen136
+\l__xtemplate_tmp_int=\count176
+\l__xtemplate_tmp_muskip=\muskip16
+\l__xtemplate_tmp_skip=\skip49
+)
+\l__xeCJK_tmp_int=\count177
+\l__xeCJK_tmp_box=\box42
+\l__xeCJK_tmp_dim=\dimen137
+\l__xeCJK_tmp_skip=\skip50
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xeCJKShipoutHook with sig. '' on line 150.
+.................................................
+\g__xeCJK_space_factor_int=\count178
+\l__xeCJK_begin_int=\count179
+\l__xeCJK_end_int=\count180
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \makexeCJKactive with sig. '' on line 396.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \makexeCJKinactive with sig. '' on line 398.
+.................................................
+\c__xeCJK_CJK_class_int=\XeTeXcharclass1
+\c__xeCJK_FullLeft_class_int=\XeTeXcharclass2
+\c__xeCJK_FullRight_class_int=\XeTeXcharclass3
+\c__xeCJK_HalfLeft_class_int=\XeTeXcharclass4
+\c__xeCJK_HalfRight_class_int=\XeTeXcharclass5
+\c__xeCJK_NormalSpace_class_int=\XeTeXcharclass6
+\c__xeCJK_CM_class_int=\XeTeXcharclass7
+\c__xeCJK_HangulJamo_class_int=\XeTeXcharclass8
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xeCJKDeclareCharClass with sig. 's>{\TrimSpaces }mm' on
+. line 580.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \__xeCJK_set_char_class_aux:Nnw with sig.
+. 'm>{\SplitArgument {1}{->}}m' on line 601.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \normalspacedchars with sig. 'm' on line 647.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xeCJKResetPunctClass with sig. '' on line 658.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xeCJKResetCharClass with sig. '' on line 670.
+.................................................
+\l__xeCJK_last_skip=\skip51
+\g__xeCJK_node_int=\count181
+\c__xeCJK_CJK_node_dim=\dimen138
+\c__xeCJK_CJK-space_node_dim=\dimen139
+\c__xeCJK_default_node_dim=\dimen140
+\c__xeCJK_default-space_node_dim=\dimen141
+\c__xeCJK_CJK-widow_node_dim=\dimen142
+\c__xeCJK_normalspace_node_dim=\dimen143
+\l__xeCJK_ccglue_skip=\skip52
+\l__xeCJK_ecglue_skip=\skip53
+\l__xeCJK_punct_kern_skip=\skip54
+\l__xeCJK_last_penalty_int=\count182
+\l__xeCJK_last_bound_dim=\dimen144
+\l__xeCJK_last_kern_dim=\dimen145
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xeCJKnobreak with sig. '' on line 1889.
+.................................................
+\l__xeCJK_widow_penalty_int=\count183
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xeCJKDeclareSubCJKBlock with sig. 's>{\TrimSpaces }mm' on
+. line 2084.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xeCJKCancelSubCJKBlock with sig. 'sm' on line 2095.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xeCJKRestoreSubCJKBlock with sig. 'sm' on line 2104.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xeCJKsetwidth with sig. 'smm' on line 2202.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xeCJKsetkern with sig. 'mmm' on line 2206.
+.................................................
+.................................................
+. xtemplate info: "declare-object-type"
+. 
+. Declaring object type 'xeCJK/punctuation' taking 0 argument(s) on line 2362.
+.................................................
+\l__xeCJK_fixed_punct_width_dim=\dimen146
+\l__xeCJK_mixed_punct_width_dim=\dimen147
+\l__xeCJK_middle_punct_width_dim=\dimen148
+\l__xeCJK_fixed_margin_width_dim=\dimen149
+\l__xeCJK_mixed_margin_width_dim=\dimen150
+\l__xeCJK_middle_margin_width_dim=\dimen151
+\l__xeCJK_bound_punct_width_dim=\dimen152
+\l__xeCJK_bound_margin_width_dim=\dimen153
+\l__xeCJK_margin_minimum_dim=\dimen154
+\l__xeCJK_kerning_total_width_dim=\dimen155
+\l__xeCJK_same_align_margin_dim=\dimen156
+\l__xeCJK_different_align_margin_dim=\dimen157
+\l__xeCJK_kerning_margin_width_dim=\dimen158
+\l__xeCJK_kerning_margin_minimum_dim=\dimen159
+\l__xeCJK_bound_dim=\dimen160
+\l__xeCJK_reverse_bound_dim=\dimen161
+\l__xeCJK_minimum_bound_dim=\dimen162
+\l__xeCJK_kerning_margin_dim=\dimen163
+\l__xeCJK_original_margin_dim=\dimen164
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xeCJKDeclarePunctStyle with sig. '>{\TrimSpaces }mm' on
+. line 2942.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xeCJKEditPunctStyle with sig. '>{\TrimSpaces }mm' on line
+. 2955.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setCJKfallbackfamilyfont with sig. 'mom' on line 3059.
+.................................................
+\g__xeCJK_family_int=\count184
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \CJKfamily with sig. 't+t-m' on line 3493.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \__xeCJK_gobble_CJKfamily:wn with sig. 't+t-m' on line
+. 3558.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \__xeCJK_post_arg:w with sig. 'mmmO{}' on line 3618.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setCJKmainfont with sig. 'om' on line 3624.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setCJKsansfont with sig. 'om' on line 3631.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setCJKmonofont with sig. 'om' on line 3637.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setCJKfamilyfont with sig. 'mom' on line 3648.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newCJKfontfamily with sig. 'omom' on line 3658.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \CJKfontspec with sig. 'om' on line 3664.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \defaultCJKfontfeatures with sig. 'm' on line 3687.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \addCJKfontfeatures with sig. 'sO{}m' on line 3693.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setCJKmathfont with sig. 'om' on line 3870.
+.................................................
+\l__xeCJK_fam_int=\count185
+\g__xeCJK_fam_allocation_int=\count186
+\l__xeCJK_verb_case_int=\count187
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xeCJKVerbAddon with sig. '' on line 4117.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xeCJKOffVerbAddon with sig. '' on line 4121.
+.................................................
+\l__xeCJK_verb_exspace_skip=\skip55
+
+(c:/texlive/2018/texmf-dist/tex/latex/fontspec/fontspec.sty
 Package: fontspec 2018/07/30 vv2.6h Font selection for XeLaTeX and LuaLaTeX
 
 (c:/texlive/2018/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
 Package: fontspec-xetex 2018/07/30 vv2.6h Font selection for XeLaTeX and LuaLaT
 eX
-\l__fontspec_script_int=\count174
-\l__fontspec_language_int=\count175
-\l__fontspec_strnum_int=\count176
-\l__fontspec_tmp_int=\count177
-\l__fontspec_em_int=\count178
-\l__fontspec_emdef_int=\count179
-\l__fontspec_strong_int=\count180
-\l__fontspec_strongdef_int=\count181
-\l__fontspec_tmpa_dim=\dimen135
-\l__fontspec_tmpb_dim=\dimen136
-\l__fontspec_tmpc_dim=\dimen137
+\l__fontspec_script_int=\count188
+\l__fontspec_language_int=\count189
+\l__fontspec_strnum_int=\count190
+\l__fontspec_tmp_int=\count191
+\l__fontspec_em_int=\count192
+\l__fontspec_emdef_int=\count193
+\l__fontspec_strong_int=\count194
+\l__fontspec_strongdef_int=\count195
+\l__fontspec_tmpa_dim=\dimen165
+\l__fontspec_tmpb_dim=\dimen166
+\l__fontspec_tmpc_dim=\dimen167
 
 (c:/texlive/2018/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
@@ -204,7 +481,15 @@ Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
 (c:/texlive/2018/texmf-dist/tex/latex/base/tuenc.def
 File: tuenc.def 2017/04/05 v2.0i Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding TU on input line 82.
-))
+)
+LaTeX Font Info:    Try loading font information for TU+cmr on input line 105.
+LaTeX Font Info:    No file TUcmr.fd. on input line 105.
+
+
+LaTeX Font Warning: Font shape `TU/cmr/m/n' undefined
+(Font)              using `TU/lmr/m/n' instead on input line 105.
+
+)
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -385,8 +670,7 @@ LaTeX Font Info:    Redeclaring font encoding TU on input line 82.
 . 
 . Defining command \UndeclareComposite with sig. 'mm' on line 3729.
 .................................................
-
-(c:/texlive/2018/texmf-dist/tex/latex/fontspec/fontspec.cfg)
+ (c:/texlive/2018/texmf-dist/tex/latex/fontspec/fontspec.cfg)
 LaTeX Info: Redefining \itshape on input line 3910.
 LaTeX Info: Redefining \slshape on input line 3915.
 LaTeX Info: Redefining \scshape on input line 3920.
@@ -405,268 +689,6 @@ LaTeX Info: Redefining \- on input line 4034.
 . Defining command \liningnums with sig. 'm' on line 4133.
 .................................................
 ))
-(c:/texlive/2018/texmf-dist/tex/latex/ctex/ctex.sty
-Package: ctex 2018/05/02 v2.4.14 Chinese adapter in LaTeX (CTEX)
-
-(c:/texlive/2018/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
-Package: l3keys2e 2018-09-24 LaTeX2e option processing using LaTeX3 keys
-)
-(c:/texlive/2018/texmf-dist/tex/latex/ctex/ctexhook.sty
-Package: ctexhook 2018/05/02 v2.4.14 Document and package hooks (CTEX)
-)
-(c:/texlive/2018/texmf-dist/tex/latex/ctex/ctexpatch.sty
-Package: ctexpatch 2018/05/02 v2.4.14 Patching commands (CTEX)
-)
-(c:/texlive/2018/texmf-dist/tex/latex/base/fix-cm.sty
-Package: fix-cm 2015/01/14 v1.1t fixes to LaTeX
-
-(c:/texlive/2018/texmf-dist/tex/latex/base/ts1enc.def
-File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
-))
-(c:/texlive/2018/texmf-dist/tex/latex/ms/everysel.sty
-Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
-)
-\l__ctex_tmp_int=\count182
-\l__ctex_tmp_box=\box41
-\l__ctex_tmp_dim=\dimen138
-\g__ctex_font_size_flag=\count183
-
-(c:/texlive/2018/texmf-dist/tex/latex/ctex/config/ctexopts.cfg
-File: ctexopts.cfg 2018/05/02 v2.4.14 Option configuration file (CTEX)
-)
-(c:/texlive/2018/texmf-dist/tex/latex/ctex/engine/ctex-engine-xetex.def
-File: ctex-engine-xetex.def 2018/05/02 v2.4.14 XeLaTeX adapter (CTEX)
-
-(c:/texlive/2018/texmf-dist/tex/xelatex/xecjk/xeCJK.sty
-Package: xeCJK 2018/04/30 v3.7.1 Typesetting CJK scripts with XeLaTeX
-
-(c:/texlive/2018/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.sty
-Package: xtemplate 2018-09-24 L3 Experimental prototype document functions
-\l__xtemplate_tmp_dim=\dimen139
-\l__xtemplate_tmp_int=\count184
-\l__xtemplate_tmp_muskip=\muskip16
-\l__xtemplate_tmp_skip=\skip49
-)
-\l__xeCJK_tmp_int=\count185
-\l__xeCJK_tmp_box=\box42
-\l__xeCJK_tmp_dim=\dimen140
-\l__xeCJK_tmp_skip=\skip50
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \xeCJKShipoutHook with sig. '' on line 150.
-.................................................
-\g__xeCJK_space_factor_int=\count186
-\l__xeCJK_begin_int=\count187
-\l__xeCJK_end_int=\count188
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \makexeCJKactive with sig. '' on line 396.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \makexeCJKinactive with sig. '' on line 398.
-.................................................
-\c__xeCJK_CJK_class_int=\XeTeXcharclass1
-\c__xeCJK_FullLeft_class_int=\XeTeXcharclass2
-\c__xeCJK_FullRight_class_int=\XeTeXcharclass3
-\c__xeCJK_HalfLeft_class_int=\XeTeXcharclass4
-\c__xeCJK_HalfRight_class_int=\XeTeXcharclass5
-\c__xeCJK_NormalSpace_class_int=\XeTeXcharclass6
-\c__xeCJK_CM_class_int=\XeTeXcharclass7
-\c__xeCJK_HangulJamo_class_int=\XeTeXcharclass8
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \xeCJKDeclareCharClass with sig. 's>{\TrimSpaces }mm' on
-. line 580.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \__xeCJK_set_char_class_aux:Nnw with sig.
-. 'm>{\SplitArgument {1}{->}}m' on line 601.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \normalspacedchars with sig. 'm' on line 647.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \xeCJKResetPunctClass with sig. '' on line 658.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \xeCJKResetCharClass with sig. '' on line 670.
-.................................................
-\l__xeCJK_last_skip=\skip51
-\g__xeCJK_node_int=\count189
-\c__xeCJK_CJK_node_dim=\dimen141
-\c__xeCJK_CJK-space_node_dim=\dimen142
-\c__xeCJK_default_node_dim=\dimen143
-\c__xeCJK_default-space_node_dim=\dimen144
-\c__xeCJK_CJK-widow_node_dim=\dimen145
-\c__xeCJK_normalspace_node_dim=\dimen146
-\l__xeCJK_ccglue_skip=\skip52
-\l__xeCJK_ecglue_skip=\skip53
-\l__xeCJK_punct_kern_skip=\skip54
-\l__xeCJK_last_penalty_int=\count190
-\l__xeCJK_last_bound_dim=\dimen147
-\l__xeCJK_last_kern_dim=\dimen148
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \xeCJKnobreak with sig. '' on line 1889.
-.................................................
-\l__xeCJK_widow_penalty_int=\count191
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \xeCJKDeclareSubCJKBlock with sig. 's>{\TrimSpaces }mm' on
-. line 2084.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \xeCJKCancelSubCJKBlock with sig. 'sm' on line 2095.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \xeCJKRestoreSubCJKBlock with sig. 'sm' on line 2104.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \xeCJKsetwidth with sig. 'smm' on line 2202.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \xeCJKsetkern with sig. 'mmm' on line 2206.
-.................................................
-.................................................
-. xtemplate info: "declare-object-type"
-. 
-. Declaring object type 'xeCJK/punctuation' taking 0 argument(s) on line 2362.
-.................................................
-\l__xeCJK_fixed_punct_width_dim=\dimen149
-\l__xeCJK_mixed_punct_width_dim=\dimen150
-\l__xeCJK_middle_punct_width_dim=\dimen151
-\l__xeCJK_fixed_margin_width_dim=\dimen152
-\l__xeCJK_mixed_margin_width_dim=\dimen153
-\l__xeCJK_middle_margin_width_dim=\dimen154
-\l__xeCJK_bound_punct_width_dim=\dimen155
-\l__xeCJK_bound_margin_width_dim=\dimen156
-\l__xeCJK_margin_minimum_dim=\dimen157
-\l__xeCJK_kerning_total_width_dim=\dimen158
-\l__xeCJK_same_align_margin_dim=\dimen159
-\l__xeCJK_different_align_margin_dim=\dimen160
-\l__xeCJK_kerning_margin_width_dim=\dimen161
-\l__xeCJK_kerning_margin_minimum_dim=\dimen162
-\l__xeCJK_bound_dim=\dimen163
-\l__xeCJK_reverse_bound_dim=\dimen164
-\l__xeCJK_minimum_bound_dim=\dimen165
-\l__xeCJK_kerning_margin_dim=\dimen166
-\l__xeCJK_original_margin_dim=\dimen167
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \xeCJKDeclarePunctStyle with sig. '>{\TrimSpaces }mm' on
-. line 2942.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \xeCJKEditPunctStyle with sig. '>{\TrimSpaces }mm' on line
-. 2955.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \setCJKfallbackfamilyfont with sig. 'mom' on line 3059.
-.................................................
-\g__xeCJK_family_int=\count192
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \CJKfamily with sig. 't+t-m' on line 3493.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \__xeCJK_gobble_CJKfamily:wn with sig. 't+t-m' on line
-. 3558.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \__xeCJK_post_arg:w with sig. 'mmmO{}' on line 3618.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \setCJKmainfont with sig. 'om' on line 3624.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \setCJKsansfont with sig. 'om' on line 3631.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \setCJKmonofont with sig. 'om' on line 3637.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \setCJKfamilyfont with sig. 'mom' on line 3648.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \newCJKfontfamily with sig. 'omom' on line 3658.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \CJKfontspec with sig. 'om' on line 3664.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \defaultCJKfontfeatures with sig. 'm' on line 3687.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \addCJKfontfeatures with sig. 'sO{}m' on line 3693.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \setCJKmathfont with sig. 'om' on line 3870.
-.................................................
-\l__xeCJK_fam_int=\count193
-\g__xeCJK_fam_allocation_int=\count194
-\l__xeCJK_verb_case_int=\count195
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \xeCJKVerbAddon with sig. '' on line 4117.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \xeCJKOffVerbAddon with sig. '' on line 4121.
-.................................................
-\l__xeCJK_verb_exspace_skip=\skip55
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -1094,6 +1116,18 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutvoffset=\dimen188
 \Gm@dimlist=\toks18
 )
+(c:/texlive/2018/texmf-dist/tex/latex/soul/soul.sty
+Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
+\SOUL@word=\toks19
+\SOUL@lasttoken=\toks20
+\SOUL@cmds=\toks21
+\SOUL@buffer=\toks22
+\SOUL@token=\toks23
+\SOUL@spaceskip=\skip67
+\SOUL@ttwidth=\dimen189
+\SOUL@uldp=\dimen190
+\SOUL@ulht=\dimen191
+)
 (c:/texlive/2018/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
@@ -1154,8 +1188,8 @@ File: t3enc.def 2001/12/31 T3 encoding
 .................................................
 )
 \tipaTiiicode=\count268
-\tipasavetokens=\toks19
-\tipachecktokens=\toks20
+\tipasavetokens=\toks24
+\tipachecktokens=\toks25
 
 (c:/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
@@ -1171,8 +1205,8 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: xetex.def on input line 99.
 )
-\Gin@req@height=\dimen189
-\Gin@req@width=\dimen190
+\Gin@req@height=\dimen192
+\Gin@req@width=\dimen193
 ))
 (c:/texlive/2018/texmf-dist/tex/latex/xltxtra/xltxtra.sty
 Package: xltxtra 2016/01/21 v0.6 Improvements for the "XeLaTeX" format
@@ -1224,12 +1258,12 @@ ts
 . 
 . Defining command \textsupersubscript with sig. 'sO{l}mm' on line 143.
 .................................................
-\subsupersep=\dimen191
+\subsupersep=\dimen194
 )
 (c:/texlive/2018/texmf-dist/tex/latex/metalogo/metalogo.sty
 Package: metalogo 2010/05/29 v0.12 Extended TeX logo macros
-\xl@everylogo=\toks21
-\xl@@everylogo=\toks22
+\xl@everylogo=\toks26
+\xl@@everylogo=\toks27
 LaTeX Info: Redefining \TeX on input line 193.
 LaTeX Info: Redefining \LaTeX on input line 202.
 LaTeX Info: Redefining \LaTeXe on input line 219.
@@ -1275,7 +1309,7 @@ ping=tex-text;"
 . <->"[LinLibertine_RBI.otf]/OT:script=latn;language=DFLT;+liga;+onum;+ss01;+sm
 cp;mapping=tex-text;"
 .................................................
-LaTeX Info: Redefining \rmfamily on input line 41.
+LaTeX Info: Redefining \rmfamily on input line 44.
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -1357,7 +1391,7 @@ Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 (c:/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
-\@linkdim=\dimen192
+\@linkdim=\dimen195
 \Hy@linkcounter=\count270
 \Hy@pagecounter=\count271
 
@@ -1395,10 +1429,10 @@ Package hyperref Info: Bookmarks ON on input line 4788.
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5141.
-\XeTeXLinkMargin=\dimen193
+\XeTeXLinkMargin=\dimen196
 \Fld@menulength=\count274
-\Field@Width=\dimen194
-\Fld@charsize=\dimen195
+\Field@Width=\dimen197
+\Fld@charsize=\dimen198
 Package hyperref Info: Hyper figures OFF on input line 6396.
 Package hyperref Info: Link nesting OFF on input line 6401.
 Package hyperref Info: Hyper index ON on input line 6404.
@@ -1432,7 +1466,7 @@ Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
-\Hy@SectionHShift=\skip67
+\Hy@SectionHShift=\skip68
 )
 (c:/texlive/2018/texmf-dist/tex/xelatex/xecjk/xunicode-addon.sty
 Package: xunicode-addon 2018/04/30 v3.7.1 addon file for xunicode
@@ -1588,32 +1622,43 @@ File: xunicode-extra.def 2018/04/30 v3.7.1 extra definition for xunicode
 (./Miao_Cai_CV_Chinese.aux)
 \openout1 = `Miao_Cai_CV_Chinese.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 91.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 91.
- (c:/texlive/2018/texmf-dist/tex/latex/tipa/t3cmr.fd
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 95.
+LaTeX Font Info:    Try loading font information for LGR+cmr on input line 95.
+
+(c:/texlive/2018/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
+File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
+)
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 95.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 95.
+
+(c:/texlive/2018/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+
+ABD: EverySelectfont initializing macros
+LaTeX Info: Redefining \selectfont on input line 95.
 .................................................
 . fontspec info: "setup-math"
 . 
@@ -1621,68 +1666,66 @@ LaTeX Font Info:    ... okay on input line 91.
 .................................................
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 91.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 91.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 91.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 91.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 91.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 91.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 91.
-LaTeX Font Info:    Redeclaring math accent \check on input line 91.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 91.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 91.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 91.
-LaTeX Font Info:    Redeclaring math symbol \colon on input line 91.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 91.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 91.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 91.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 91.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 91.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 91.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 91.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 91.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 91.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 91.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 91.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 91.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 91.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 95.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 95.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 95.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 95.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 95.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 95.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 95.
+LaTeX Font Info:    Redeclaring math accent \check on input line 95.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 95.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 95.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 95.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 95.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 95.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 95.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 95.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 95.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 95.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 95.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 95.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 95.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 95.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 95.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 95.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 95.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 95.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 91.
+(Font)              `operators' in the math version `normal' on input line 95.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> TU/LinLibertine_R.otf(0)/m/n on input l
-ine 91.
+ine 95.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 91.
+(Font)              `operators' in the math version `bold' on input line 95.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmr/bx/n --> TU/LinLibertine_R.otf(0)/m/n on input 
-line 91.
+line 95.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  TU/LinLibertine_R.otf(0)/m/n --> TU/LinLibertine_R.otf(
-0)/m/n on input line 91.
+0)/m/n on input line 95.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> TU/LinLibertine_R.otf(0)/m/it on input
- line 91.
+ line 95.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/cmr/bx/n --> TU/LinLibertine_R.otf(0)/bx/n on input
- line 91.
+ line 95.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 91.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 95.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
 (Font)                  OT1/cmtt/m/n --> TU/DejaVuSansMono.ttf(0)/m/n on input 
-line 91.
+line 95.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  TU/LinLibertine_R.otf(0)/m/n --> TU/LinLibertine_R.otf(
-0)/bx/n on input line 91.
+0)/bx/n on input line 95.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> TU/LinLibertine_R.otf(0)/bx/it on inp
-ut line 91.
+ut line 95.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/bx/n on input line 91.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/bx/n on input line 95.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> TU/DejaVuSansMono.ttf(0)/bx/n on input
- line 91.
- ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 91.
+ line 95.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1719,7 +1762,7 @@ LaTeX Info: Redefining \selectfont on input line 91.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box59
-Package hyperref Info: Link coloring ON on input line 91.
+Package hyperref Info: Link coloring ON on input line 95.
 (c:/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
@@ -1728,9 +1771,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count282
 )
-LaTeX Info: Redefining \ref on input line 91.
-LaTeX Info: Redefining \pageref on input line 91.
-LaTeX Info: Redefining \nameref on input line 91.
+LaTeX Info: Redefining \ref on input line 95.
+LaTeX Info: Redefining \pageref on input line 95.
+LaTeX Info: Redefining \nameref on input line 95.
 
 (./Miao_Cai_CV_Chinese.out) (./Miao_Cai_CV_Chinese.out)
 \@outlinefile=\write3
@@ -1764,57 +1807,57 @@ LaTeX Info: Redefining \nameref on input line 91.
 . - 'small caps'  (m/sc) with NFSS spec.: 
 .................................................
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 97.
+(Font)              <10.95> on input line 101.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 97.
+(Font)              <8> on input line 101.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 97.
+(Font)              <6> on input line 101.
 
 
 LaTeX Font Warning: Font shape `TU/FZXiaoBiaoSong-B05S(0)/bx/n' undefined
 (Font)              using `TU/FZXiaoBiaoSong-B05S(0)/m/n' instead on input line
- 107.
+ 111.
 
 Package marginnote Info: Margin note 1.1 is on absolute page 1 on input line 11
-4.
-Package marginnote Info: right page because not two side mode on input line 114
+8.
+Package marginnote Info: right page because not two side mode on input line 118
 .
-Package marginnote Info: xpos seems to be 99.58464pt on input line 114.
+Package marginnote Info: xpos seems to be 99.58464pt on input line 118.
 Package marginnote Info: Margin note 1.2 is on absolute page 1 on input line 11
-5.
-Package marginnote Info: right page because not two side mode on input line 115
-.
-Package marginnote Info: xpos seems to be 99.58464pt on input line 115.
-Package marginnote Info: Margin note 1.3 is on absolute page 1 on input line 11
-6.
-Package marginnote Info: right page because not two side mode on input line 116
-.
-Package marginnote Info: xpos seems to be 99.58464pt on input line 116.
-Package marginnote Info: Margin note 1.4 is on absolute page 1 on input line 12
-1.
-Package marginnote Info: right page because not two side mode on input line 121
-.
-Package marginnote Info: xpos seems to be 99.58464pt on input line 121.
-Package marginnote Info: Margin note 1.5 is on absolute page 1 on input line 12
-2.
-Package marginnote Info: right page because not two side mode on input line 122
-.
-Package marginnote Info: xpos seems to be 99.58464pt on input line 122.
-Package marginnote Info: Margin note 1.6 is on absolute page 1 on input line 12
-3.
-Package marginnote Info: right page because not two side mode on input line 123
-.
-Package marginnote Info: xpos seems to be 99.58464pt on input line 123.
-Package marginnote Info: Margin note 1.7 is on absolute page 1 on input line 12
-4.
-Package marginnote Info: right page because not two side mode on input line 124
-.
-Package marginnote Info: xpos seems to be 99.58464pt on input line 124.
-Package marginnote Info: Margin note 1.8 is on absolute page 1 on input line 12
 9.
-Package marginnote Info: right page because not two side mode on input line 129
+Package marginnote Info: right page because not two side mode on input line 119
 .
-Package marginnote Info: xpos seems to be 99.58464pt on input line 129.
+Package marginnote Info: xpos seems to be 99.58464pt on input line 119.
+Package marginnote Info: Margin note 1.3 is on absolute page 1 on input line 12
+0.
+Package marginnote Info: right page because not two side mode on input line 120
+.
+Package marginnote Info: xpos seems to be 99.58464pt on input line 120.
+Package marginnote Info: Margin note 1.4 is on absolute page 1 on input line 12
+5.
+Package marginnote Info: right page because not two side mode on input line 125
+.
+Package marginnote Info: xpos seems to be 99.58464pt on input line 125.
+Package marginnote Info: Margin note 1.5 is on absolute page 1 on input line 12
+6.
+Package marginnote Info: right page because not two side mode on input line 126
+.
+Package marginnote Info: xpos seems to be 99.58464pt on input line 126.
+Package marginnote Info: Margin note 1.6 is on absolute page 1 on input line 12
+7.
+Package marginnote Info: right page because not two side mode on input line 127
+.
+Package marginnote Info: xpos seems to be 99.58464pt on input line 127.
+Package marginnote Info: Margin note 1.7 is on absolute page 1 on input line 12
+8.
+Package marginnote Info: right page because not two side mode on input line 128
+.
+Package marginnote Info: xpos seems to be 99.58464pt on input line 128.
+Package marginnote Info: Margin note 1.8 is on absolute page 1 on input line 13
+3.
+Package marginnote Info: right page because not two side mode on input line 133
+.
+Package marginnote Info: xpos seems to be 99.58464pt on input line 133.
 .................................................
 . fontspec info: "no-font-shape"
 . 
@@ -1831,7 +1874,7 @@ Package marginnote Info: xpos seems to be 99.58464pt on input line 129.
 . Could not resolve font "FangSong/I" (it probably doesn't exist).
 .................................................
 LaTeX Font Info:    Font shape `TU/DejaVuSansMono.ttf(0)/m/n' will be
-(Font)              scaled to size 8.76003pt on input line 129.
+(Font)              scaled to size 8.76003pt on input line 133.
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -1845,466 +1888,496 @@ LaTeX Font Info:    Font shape `TU/DejaVuSansMono.ttf(0)/m/n' will be
 . - 'small caps'  (m/sc) with NFSS spec.: 
 .................................................
 Package marginnote Info: Margin note 1.9 is on absolute page 1 on input line 13
-0.
-Package marginnote Info: right page because not two side mode on input line 130
-.
-Package marginnote Info: xpos seems to be 99.58464pt on input line 130.
-Package marginnote Info: Margin note 1.10 is on absolute page 1 on input line 1
-31.
-Package marginnote Info: right page because not two side mode on input line 131
-.
-Package marginnote Info: xpos seems to be 99.58464pt on input line 131.
-Package marginnote Info: Margin note 1.11 is on absolute page 1 on input line 1
-32.
-Package marginnote Info: right page because not two side mode on input line 132
-.
-Package marginnote Info: xpos seems to be 99.58464pt on input line 132.
-Package marginnote Info: Margin note 1.12 is on absolute page 1 on input line 1
-33.
-Package marginnote Info: right page because not two side mode on input line 133
-.
-Package marginnote Info: xpos seems to be 99.58464pt on input line 133.
-Package marginnote Info: Margin note 1.13 is on absolute page 1 on input line 1
-34.
+4.
 Package marginnote Info: right page because not two side mode on input line 134
 .
 Package marginnote Info: xpos seems to be 99.58464pt on input line 134.
-Package marginnote Info: Margin note 1.14 is on absolute page 1 on input line 1
+Package marginnote Info: Margin note 1.10 is on absolute page 1 on input line 1
 35.
 Package marginnote Info: right page because not two side mode on input line 135
 .
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 135.
 Package marginnote Info: xpos seems to be 99.58464pt on input line 135.
+Package marginnote Info: Margin note 1.11 is on absolute page 1 on input line 1
+36.
+Package marginnote Info: right page because not two side mode on input line 136
+.
+Package marginnote Info: xpos seems to be 99.58464pt on input line 136.
+Package marginnote Info: Margin note 1.12 is on absolute page 1 on input line 1
+37.
+Package marginnote Info: right page because not two side mode on input line 137
+.
+Package marginnote Info: xpos seems to be 99.58464pt on input line 137.
+Package marginnote Info: Margin note 1.13 is on absolute page 1 on input line 1
+38.
+Package marginnote Info: right page because not two side mode on input line 138
+.
+Package marginnote Info: xpos seems to be 99.58464pt on input line 138.
+Package marginnote Info: Margin note 1.14 is on absolute page 1 on input line 1
+39.
+Package marginnote Info: right page because not two side mode on input line 139
+.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 139.
+Package marginnote Info: xpos seems to be 99.58464pt on input line 139.
 Package marginnote Info: Margin note 1.15 is on absolute page 2 on input line 1
-43.
-Package marginnote Info: right page because not two side mode on input line 143
-.
-Package marginnote Info: xpos seems to be 99.58464pt on input line 143.
-Package marginnote Info: Margin note 1.16 is on absolute page 2 on input line 1
-44.
-Package marginnote Info: right page because not two side mode on input line 144
-.
-Package marginnote Info: xpos seems to be 99.58464pt on input line 144.
-Package marginnote Info: Margin note 1.17 is on absolute page 2 on input line 1
-45.
-Package marginnote Info: right page because not two side mode on input line 145
-.
-Package marginnote Info: xpos seems to be 99.58464pt on input line 145.
-Package marginnote Info: Margin note 1.18 is on absolute page 2 on input line 1
-46.
-Package marginnote Info: right page because not two side mode on input line 146
-.
-Package marginnote Info: xpos seems to be 99.58464pt on input line 146.
-Package marginnote Info: Margin note 1.19 is on absolute page 2 on input line 1
 47.
 Package marginnote Info: right page because not two side mode on input line 147
 .
 Package marginnote Info: xpos seems to be 99.58464pt on input line 147.
-Package marginnote Info: Margin note 1.20 is on absolute page 2 on input line 1
+Package marginnote Info: Margin note 1.16 is on absolute page 2 on input line 1
 48.
 Package marginnote Info: right page because not two side mode on input line 148
 .
 Package marginnote Info: xpos seems to be 99.58464pt on input line 148.
-Package marginnote Info: Margin note 1.21 is on absolute page 2 on input line 1
+Package marginnote Info: Margin note 1.17 is on absolute page 2 on input line 1
 49.
 Package marginnote Info: right page because not two side mode on input line 149
 .
 Package marginnote Info: xpos seems to be 99.58464pt on input line 149.
-Package marginnote Info: Margin note 1.22 is on absolute page 2 on input line 1
+Package marginnote Info: Margin note 1.18 is on absolute page 2 on input line 1
 50.
 Package marginnote Info: right page because not two side mode on input line 150
 .
 Package marginnote Info: xpos seems to be 99.58464pt on input line 150.
-Package marginnote Info: Margin note 1.23 is on absolute page 2 on input line 1
+Package marginnote Info: Margin note 1.19 is on absolute page 2 on input line 1
 51.
 Package marginnote Info: right page because not two side mode on input line 151
 .
 Package marginnote Info: xpos seems to be 99.58464pt on input line 151.
-Package marginnote Info: Margin note 1.24 is on absolute page 2 on input line 1
+Package marginnote Info: Margin note 1.20 is on absolute page 2 on input line 1
 52.
 Package marginnote Info: right page because not two side mode on input line 152
 .
 Package marginnote Info: xpos seems to be 99.58464pt on input line 152.
-Package marginnote Info: Margin note 1.25 is on absolute page 2 on input line 1
+Package marginnote Info: Margin note 1.21 is on absolute page 2 on input line 1
 53.
 Package marginnote Info: right page because not two side mode on input line 153
 .
 Package marginnote Info: xpos seems to be 99.58464pt on input line 153.
-Package marginnote Info: Margin note 1.26 is on absolute page 2 on input line 1
+Package marginnote Info: Margin note 1.22 is on absolute page 2 on input line 1
 54.
 Package marginnote Info: right page because not two side mode on input line 154
 .
 Package marginnote Info: xpos seems to be 99.58464pt on input line 154.
+Package marginnote Info: Margin note 1.23 is on absolute page 2 on input line 1
+55.
+Package marginnote Info: right page because not two side mode on input line 155
+.
+Package marginnote Info: xpos seems to be 99.58464pt on input line 155.
+Package marginnote Info: Margin note 1.24 is on absolute page 2 on input line 1
+56.
+Package marginnote Info: right page because not two side mode on input line 156
+.
+Package marginnote Info: xpos seems to be 99.58464pt on input line 156.
+Package marginnote Info: Margin note 1.25 is on absolute page 2 on input line 1
+57.
+Package marginnote Info: right page because not two side mode on input line 157
+.
+Package marginnote Info: xpos seems to be 99.58464pt on input line 157.
+Package marginnote Info: Margin note 1.26 is on absolute page 2 on input line 1
+58.
+Package marginnote Info: right page because not two side mode on input line 158
+.
+Package marginnote Info: xpos seems to be 99.58464pt on input line 158.
 [1
 
 ]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 157.
+(Font)              <14.4> on input line 161.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 157.
-Package marginnote Info: Margin note 2.1 is on absolute page 2 on input line 15
-9.
-Package marginnote Info: right page because not two side mode on input line 159
-.
-Package marginnote Info: xpos seems to be 99.58464pt on input line 159.
-Package marginnote Info: Margin note 2.2 is on absolute page 2 on input line 16
-0.
-Package marginnote Info: right page because not two side mode on input line 160
-.
-Package marginnote Info: xpos seems to be 99.58464pt on input line 160.
-Package marginnote Info: Margin note 2.3 is on absolute page 2 on input line 16
-1.
-Package marginnote Info: right page because not two side mode on input line 161
-.
-Package marginnote Info: xpos seems to be 99.58464pt on input line 161.
-Package marginnote Info: Margin note 2.4 is on absolute page 2 on input line 16
-2.
-Package marginnote Info: right page because not two side mode on input line 162
-.
-Package marginnote Info: xpos seems to be 99.58464pt on input line 162.
-Package marginnote Info: Margin note 2.5 is on absolute page 2 on input line 16
+(Font)              <7> on input line 161.
+Package marginnote Info: Margin note 2.1 is on absolute page 2 on input line 16
 3.
 Package marginnote Info: right page because not two side mode on input line 163
 .
 Package marginnote Info: xpos seems to be 99.58464pt on input line 163.
-Package marginnote Info: Margin note 2.6 is on absolute page 2 on input line 16
+Package marginnote Info: Margin note 2.2 is on absolute page 2 on input line 16
 4.
 Package marginnote Info: right page because not two side mode on input line 164
 .
 Package marginnote Info: xpos seems to be 99.58464pt on input line 164.
-Package marginnote Info: Margin note 2.7 is on absolute page 2 on input line 16
+Package marginnote Info: Margin note 2.3 is on absolute page 2 on input line 16
 5.
 Package marginnote Info: right page because not two side mode on input line 165
 .
 Package marginnote Info: xpos seems to be 99.58464pt on input line 165.
-Package marginnote Info: Margin note 2.8 is on absolute page 2 on input line 16
+Package marginnote Info: Margin note 2.4 is on absolute page 2 on input line 16
 6.
 Package marginnote Info: right page because not two side mode on input line 166
 .
 Package marginnote Info: xpos seems to be 99.58464pt on input line 166.
-Package marginnote Info: Margin note 2.9 is on absolute page 2 on input line 16
+Package marginnote Info: Margin note 2.5 is on absolute page 2 on input line 16
 7.
 Package marginnote Info: right page because not two side mode on input line 167
 .
 Package marginnote Info: xpos seems to be 99.58464pt on input line 167.
-Package marginnote Info: Margin note 2.10 is on absolute page 2 on input line 1
-68.
+Package marginnote Info: Margin note 2.6 is on absolute page 2 on input line 16
+8.
 Package marginnote Info: right page because not two side mode on input line 168
 .
 Package marginnote Info: xpos seems to be 99.58464pt on input line 168.
-Package marginnote Info: Margin note 2.11 is on absolute page 2 on input line 1
-69.
+Package marginnote Info: Margin note 2.7 is on absolute page 2 on input line 16
+9.
 Package marginnote Info: right page because not two side mode on input line 169
 .
 Package marginnote Info: xpos seems to be 99.58464pt on input line 169.
-Package marginnote Info: Margin note 2.12 is on absolute page 2 on input line 1
-70.
+Package marginnote Info: Margin note 2.8 is on absolute page 2 on input line 17
+0.
 Package marginnote Info: right page because not two side mode on input line 170
 .
 Package marginnote Info: xpos seems to be 99.58464pt on input line 170.
-Package marginnote Info: Margin note 2.13 is on absolute page 2 on input line 1
-71.
+Package marginnote Info: Margin note 2.9 is on absolute page 2 on input line 17
+1.
 Package marginnote Info: right page because not two side mode on input line 171
 .
 Package marginnote Info: xpos seems to be 99.58464pt on input line 171.
-Package marginnote Info: Margin note 2.14 is on absolute page 2 on input line 1
+Package marginnote Info: Margin note 2.10 is on absolute page 2 on input line 1
+72.
+Package marginnote Info: right page because not two side mode on input line 172
+.
+Package marginnote Info: xpos seems to be 99.58464pt on input line 172.
+Package marginnote Info: Margin note 2.11 is on absolute page 2 on input line 1
+73.
+Package marginnote Info: right page because not two side mode on input line 173
+.
+Package marginnote Info: xpos seems to be 99.58464pt on input line 173.
+Package marginnote Info: Margin note 2.12 is on absolute page 2 on input line 1
 74.
 Package marginnote Info: right page because not two side mode on input line 174
 .
 Package marginnote Info: xpos seems to be 99.58464pt on input line 174.
-Package marginnote Info: Margin note 2.15 is on absolute page 2 on input line 1
+Package marginnote Info: Margin note 2.13 is on absolute page 2 on input line 1
 75.
 Package marginnote Info: right page because not two side mode on input line 175
 .
 Package marginnote Info: xpos seems to be 99.58464pt on input line 175.
-Package marginnote Info: Margin note 2.16 is on absolute page 3 on input line 1
-76.
-Package marginnote Info: right page because not two side mode on input line 176
+Package marginnote Info: Margin note 2.14 is on absolute page 2 on input line 1
+78.
+Package marginnote Info: right page because not two side mode on input line 178
 .
-Package marginnote Info: xpos seems to be 99.58464pt on input line 176.
- [2]
-Package marginnote Info: Margin note 3.1 is on absolute page 3 on input line 18
-0.
+Package marginnote Info: xpos seems to be 99.58464pt on input line 178.
+Package marginnote Info: Margin note 2.15 is on absolute page 2 on input line 1
+79.
+Package marginnote Info: right page because not two side mode on input line 179
+.
+Package marginnote Info: xpos seems to be 99.58464pt on input line 179.
+Package marginnote Info: Margin note 2.16 is on absolute page 3 on input line 1
+80.
 Package marginnote Info: right page because not two side mode on input line 180
 .
 Package marginnote Info: xpos seems to be 99.58464pt on input line 180.
+ [2]
+Package marginnote Info: Margin note 3.1 is on absolute page 3 on input line 18
+4.
+Package marginnote Info: right page because not two side mode on input line 184
+.
+Package marginnote Info: xpos seems to be 99.58464pt on input line 184.
 Package marginnote Info: Margin note 3.2 is on absolute page 3 on input line 18
-1.
-Package marginnote Info: right page because not two side mode on input line 181
+5.
+Package marginnote Info: right page because not two side mode on input line 185
 .
-Package marginnote Info: xpos seems to be 99.58464pt on input line 181.
+Package marginnote Info: xpos seems to be 99.58464pt on input line 185.
 Package marginnote Info: Margin note 3.3 is on absolute page 3 on input line 18
-2.
-Package marginnote Info: right page because not two side mode on input line 182
+6.
+Package marginnote Info: right page because not two side mode on input line 186
 .
-Package marginnote Info: xpos seems to be 99.58464pt on input line 182.
+Package marginnote Info: xpos seems to be 99.58464pt on input line 186.
 Package marginnote Info: Margin note 3.4 is on absolute page 3 on input line 18
-3.
-Package marginnote Info: right page because not two side mode on input line 183
+7.
+Package marginnote Info: right page because not two side mode on input line 187
 .
-Package marginnote Info: xpos seems to be 99.58464pt on input line 183.
+Package marginnote Info: xpos seems to be 99.58464pt on input line 187.
 Package marginnote Info: Margin note 3.5 is on absolute page 3 on input line 19
-0.
-Package marginnote Info: right page because not two side mode on input line 190
+4.
+Package marginnote Info: right page because not two side mode on input line 194
 .
-Package marginnote Info: xpos seems to be 99.58464pt on input line 190.
+Package marginnote Info: xpos seems to be 99.58464pt on input line 194.
 Package marginnote Info: Margin note 3.6 is on absolute page 3 on input line 19
-1.
-Package marginnote Info: right page because not two side mode on input line 191
+5.
+Package marginnote Info: right page because not two side mode on input line 195
 .
-Package marginnote Info: xpos seems to be 99.58464pt on input line 191.
+Package marginnote Info: xpos seems to be 99.58464pt on input line 195.
 Package marginnote Info: Margin note 3.7 is on absolute page 3 on input line 19
-2.
-Package marginnote Info: right page because not two side mode on input line 192
+6.
+Package marginnote Info: right page because not two side mode on input line 196
 .
-Package marginnote Info: xpos seems to be 99.58464pt on input line 192.
+Package marginnote Info: xpos seems to be 99.58464pt on input line 196.
 Package marginnote Info: Margin note 3.8 is on absolute page 3 on input line 19
-3.
-Package marginnote Info: right page because not two side mode on input line 193
+7.
+Package marginnote Info: right page because not two side mode on input line 197
 .
-Package marginnote Info: xpos seems to be 99.58464pt on input line 193.
+Package marginnote Info: xpos seems to be 99.58464pt on input line 197.
+Package marginnote Info: Margin note 3.9 is on absolute page 3 on input line 19
+8.
+Package marginnote Info: right page because not two side mode on input line 198
+.
+Package marginnote Info: xpos seems to be 99.58464pt on input line 198.
+Package marginnote Info: Margin note 3.10 is on absolute page 3 on input line 1
+99.
+Package marginnote Info: right page because not two side mode on input line 199
+.
+Package marginnote Info: xpos seems to be 99.58464pt on input line 199.
 
 
 LaTeX Font Warning: Font shape `TU/FZXiaoBiaoSong-B05S(0)/bx/sc' undefined
 (Font)              using `TU/FZXiaoBiaoSong-B05S(0)/bx/n' instead on input lin
-e 197.
+e 203.
 
-Package marginnote Info: Margin note 3.9 is on absolute page 3 on input line 19
-9.
-Package marginnote Info: right page because not two side mode on input line 199
-.
-Package marginnote Info: xpos seems to be 99.58464pt on input line 199.
-Package marginnote Info: Margin note 3.10 is on absolute page 3 on input line 2
-00.
-Package marginnote Info: right page because not two side mode on input line 200
-.
-Package marginnote Info: xpos seems to be 99.58464pt on input line 200.
 Package marginnote Info: Margin note 3.11 is on absolute page 3 on input line 2
-01.
-Package marginnote Info: right page because not two side mode on input line 201
-.
-Package marginnote Info: xpos seems to be 99.58464pt on input line 201.
-Package marginnote Info: Margin note 3.12 is on absolute page 3 on input line 2
-02.
-Package marginnote Info: right page because not two side mode on input line 202
-.
-Package marginnote Info: xpos seems to be 99.58464pt on input line 202.
-Package marginnote Info: Margin note 3.13 is on absolute page 3 on input line 2
-03.
-Package marginnote Info: right page because not two side mode on input line 203
-.
-Package marginnote Info: xpos seems to be 99.58464pt on input line 203.
-Package marginnote Info: Margin note 3.14 is on absolute page 3 on input line 2
-04.
-Package marginnote Info: right page because not two side mode on input line 204
-.
-Package marginnote Info: xpos seems to be 99.58464pt on input line 204.
-Package marginnote Info: Margin note 3.15 is on absolute page 4 on input line 2
 05.
 Package marginnote Info: right page because not two side mode on input line 205
 .
 Package marginnote Info: xpos seems to be 99.58464pt on input line 205.
-Package marginnote Info: Margin note 3.16 is on absolute page 4 on input line 2
+Package marginnote Info: Margin note 3.12 is on absolute page 3 on input line 2
+05.
+Package marginnote Info: right page because not two side mode on input line 205
+.
+Package marginnote Info: xpos seems to be 99.58464pt on input line 205.
+Package marginnote Info: Margin note 3.13 is on absolute page 3 on input line 2
 06.
 Package marginnote Info: right page because not two side mode on input line 206
 .
 Package marginnote Info: xpos seems to be 99.58464pt on input line 206.
-Package marginnote Info: Margin note 3.17 is on absolute page 4 on input line 2
+Missing character: There is no  in font ectt1000!
+Package marginnote Info: Margin note 3.14 is on absolute page 3 on input line 2
 07.
 Package marginnote Info: right page because not two side mode on input line 207
 .
 Package marginnote Info: xpos seems to be 99.58464pt on input line 207.
-Package marginnote Info: Margin note 3.18 is on absolute page 4 on input line 2
+Package marginnote Info: Margin note 3.15 is on absolute page 3 on input line 2
 08.
 Package marginnote Info: right page because not two side mode on input line 208
 .
 Package marginnote Info: xpos seems to be 99.58464pt on input line 208.
-Package marginnote Info: Margin note 3.19 is on absolute page 4 on input line 2
+Package marginnote Info: Margin note 3.16 is on absolute page 3 on input line 2
 09.
 Package marginnote Info: right page because not two side mode on input line 209
 .
 Package marginnote Info: xpos seems to be 99.58464pt on input line 209.
-[3]
-Package marginnote Info: Margin note 4.1 is on absolute page 4 on input line 21
-3.
+Package marginnote Info: Margin note 3.17 is on absolute page 4 on input line 2
+10.
+Package marginnote Info: right page because not two side mode on input line 210
+.
+Package marginnote Info: xpos seems to be 99.58464pt on input line 210.
+Package marginnote Info: Margin note 3.18 is on absolute page 4 on input line 2
+11.
+Package marginnote Info: right page because not two side mode on input line 211
+.
+Package marginnote Info: xpos seems to be 99.58464pt on input line 211.
+Package marginnote Info: Margin note 3.19 is on absolute page 4 on input line 2
+12.
+Package marginnote Info: right page because not two side mode on input line 212
+.
+Package marginnote Info: xpos seems to be 99.58464pt on input line 212.
+Package marginnote Info: Margin note 3.20 is on absolute page 4 on input line 2
+13.
 Package marginnote Info: right page because not two side mode on input line 213
 .
 Package marginnote Info: xpos seems to be 99.58464pt on input line 213.
-Package marginnote Info: Margin note 4.2 is on absolute page 4 on input line 21
-4.
+Package marginnote Info: Margin note 3.21 is on absolute page 4 on input line 2
+14.
 Package marginnote Info: right page because not two side mode on input line 214
 .
 Package marginnote Info: xpos seems to be 99.58464pt on input line 214.
-Package marginnote Info: Margin note 4.3 is on absolute page 4 on input line 21
-5.
+Package marginnote Info: Margin note 3.22 is on absolute page 4 on input line 2
+15.
 Package marginnote Info: right page because not two side mode on input line 215
 .
 Package marginnote Info: xpos seems to be 99.58464pt on input line 215.
-Package marginnote Info: Margin note 4.4 is on absolute page 4 on input line 21
-6.
+Package marginnote Info: Margin note 3.23 is on absolute page 4 on input line 2
+16.
 Package marginnote Info: right page because not two side mode on input line 216
 .
 Package marginnote Info: xpos seems to be 99.58464pt on input line 216.
-Package marginnote Info: Margin note 4.5 is on absolute page 4 on input line 21
-7.
+Package marginnote Info: Margin note 3.24 is on absolute page 4 on input line 2
+17.
 Package marginnote Info: right page because not two side mode on input line 217
 .
 Package marginnote Info: xpos seems to be 99.58464pt on input line 217.
-Package marginnote Info: Margin note 4.6 is on absolute page 5 on input line 22
-1.
-Package marginnote Info: right page because not two side mode on input line 221
+Package marginnote Info: Margin note 3.25 is on absolute page 4 on input line 2
+18.
+Package marginnote Info: right page because not two side mode on input line 218
 .
-Package marginnote Info: xpos seems to be 99.58464pt on input line 221.
-Package marginnote Info: Margin note 4.7 is on absolute page 5 on input line 22
-2.
-Package marginnote Info: right page because not two side mode on input line 222
+Package marginnote Info: xpos seems to be 99.58464pt on input line 218.
+Package marginnote Info: Margin note 3.26 is on absolute page 4 on input line 2
+19.
+Package marginnote Info: right page because not two side mode on input line 219
 .
-Package marginnote Info: xpos seems to be 99.58464pt on input line 222.
+Package marginnote Info: xpos seems to be 99.58464pt on input line 219.
+Package marginnote Info: Margin note 3.27 is on absolute page 4 on input line 2
+20.
+Package marginnote Info: right page because not two side mode on input line 220
+.
+Package marginnote Info: xpos seems to be 99.58464pt on input line 220.
+[3]
+Package marginnote Info: Margin note 4.1 is on absolute page 5 on input line 22
+3.
+Package marginnote Info: right page because not two side mode on input line 223
+.
+Package marginnote Info: xpos seems to be 99.58464pt on input line 223.
  [4]
 Package marginnote Info: Margin note 5.1 is on absolute page 5 on input line 22
-6.
-Package marginnote Info: right page because not two side mode on input line 226
-.
-Package marginnote Info: xpos seems to be 99.58464pt on input line 226.
-Package marginnote Info: Margin note 5.2 is on absolute page 5 on input line 22
 7.
 Package marginnote Info: right page because not two side mode on input line 227
 .
 Package marginnote Info: xpos seems to be 99.58464pt on input line 227.
-Package marginnote Info: Margin note 5.3 is on absolute page 5 on input line 22
+Package marginnote Info: Margin note 5.2 is on absolute page 5 on input line 22
 8.
 Package marginnote Info: right page because not two side mode on input line 228
 .
 Package marginnote Info: xpos seems to be 99.58464pt on input line 228.
-Package marginnote Info: Margin note 5.4 is on absolute page 5 on input line 22
+Package marginnote Info: Margin note 5.3 is on absolute page 5 on input line 22
 9.
 Package marginnote Info: right page because not two side mode on input line 229
 .
 Package marginnote Info: xpos seems to be 99.58464pt on input line 229.
-Package marginnote Info: Margin note 5.5 is on absolute page 5 on input line 23
+Package marginnote Info: Margin note 5.4 is on absolute page 5 on input line 23
 0.
 Package marginnote Info: right page because not two side mode on input line 230
 .
 Package marginnote Info: xpos seems to be 99.58464pt on input line 230.
-Package marginnote Info: Margin note 5.6 is on absolute page 5 on input line 23
+Package marginnote Info: Margin note 5.5 is on absolute page 5 on input line 23
 1.
 Package marginnote Info: right page because not two side mode on input line 231
 .
 Package marginnote Info: xpos seems to be 99.58464pt on input line 231.
-Package marginnote Info: Margin note 5.7 is on absolute page 5 on input line 23
-2.
-Package marginnote Info: right page because not two side mode on input line 232
-.
-Package marginnote Info: xpos seems to be 99.58464pt on input line 232.
-Package marginnote Info: Margin note 5.8 is on absolute page 5 on input line 23
-3.
-Package marginnote Info: right page because not two side mode on input line 233
-.
-Package marginnote Info: xpos seems to be 99.58464pt on input line 233.
-Package marginnote Info: Margin note 5.9 is on absolute page 5 on input line 23
-4.
-Package marginnote Info: right page because not two side mode on input line 234
-.
-Package marginnote Info: xpos seems to be 99.58464pt on input line 234.
-Package marginnote Info: Margin note 5.10 is on absolute page 5 on input line 2
-35.
+Package marginnote Info: Margin note 5.6 is on absolute page 5 on input line 23
+5.
 Package marginnote Info: right page because not two side mode on input line 235
 .
 Package marginnote Info: xpos seems to be 99.58464pt on input line 235.
-Package marginnote Info: Margin note 5.11 is on absolute page 5 on input line 2
-36.
+Package marginnote Info: Margin note 5.7 is on absolute page 5 on input line 23
+6.
 Package marginnote Info: right page because not two side mode on input line 236
 .
 Package marginnote Info: xpos seems to be 99.58464pt on input line 236.
-Package marginnote Info: Margin note 5.12 is on absolute page 5 on input line 2
-37.
-Package marginnote Info: right page because not two side mode on input line 237
+Package marginnote Info: Margin note 5.8 is on absolute page 5 on input line 24
+0.
+Package marginnote Info: right page because not two side mode on input line 240
 .
-Package marginnote Info: xpos seems to be 99.58464pt on input line 237.
-Package marginnote Info: Margin note 5.13 is on absolute page 5 on input line 2
-38.
-Package marginnote Info: right page because not two side mode on input line 238
+Package marginnote Info: xpos seems to be 99.58464pt on input line 240.
+Package marginnote Info: Margin note 5.9 is on absolute page 5 on input line 24
+1.
+Package marginnote Info: right page because not two side mode on input line 241
 .
-Package marginnote Info: xpos seems to be 99.58464pt on input line 238.
-Package marginnote Info: Margin note 5.14 is on absolute page 5 on input line 2
-39.
-Package marginnote Info: right page because not two side mode on input line 239
+Package marginnote Info: xpos seems to be 99.58464pt on input line 241.
+Package marginnote Info: Margin note 5.10 is on absolute page 5 on input line 2
+42.
+Package marginnote Info: right page because not two side mode on input line 242
 .
-Package marginnote Info: xpos seems to be 99.58464pt on input line 239.
-Package marginnote Info: Margin note 5.15 is on absolute page 6 on input line 2
+Package marginnote Info: xpos seems to be 99.58464pt on input line 242.
+Package marginnote Info: Margin note 5.11 is on absolute page 6 on input line 2
 43.
 Package marginnote Info: right page because not two side mode on input line 243
 .
 Package marginnote Info: xpos seems to be 99.58464pt on input line 243.
-Package marginnote Info: Margin note 5.16 is on absolute page 6 on input line 2
+Package marginnote Info: Margin note 5.12 is on absolute page 6 on input line 2
 44.
 Package marginnote Info: right page because not two side mode on input line 244
 .
 Package marginnote Info: xpos seems to be 99.58464pt on input line 244.
-Package marginnote Info: Margin note 5.17 is on absolute page 6 on input line 2
+Package marginnote Info: Margin note 5.13 is on absolute page 6 on input line 2
 45.
 Package marginnote Info: right page because not two side mode on input line 245
 .
 Package marginnote Info: xpos seems to be 99.58464pt on input line 245.
-Package marginnote Info: Margin note 5.18 is on absolute page 6 on input line 2
+Package marginnote Info: Margin note 5.14 is on absolute page 6 on input line 2
+46.
+Package marginnote Info: right page because not two side mode on input line 246
+.
+Package marginnote Info: xpos seems to be 99.58464pt on input line 246.
+Package marginnote Info: Margin note 5.15 is on absolute page 6 on input line 2
 47.
 Package marginnote Info: right page because not two side mode on input line 247
 .
 Package marginnote Info: xpos seems to be 99.58464pt on input line 247.
-Package marginnote Info: Margin note 5.19 is on absolute page 6 on input line 2
+Package marginnote Info: Margin note 5.16 is on absolute page 6 on input line 2
 48.
 Package marginnote Info: right page because not two side mode on input line 248
 .
 Package marginnote Info: xpos seems to be 99.58464pt on input line 248.
-Package marginnote Info: Margin note 5.20 is on absolute page 6 on input line 2
+Package marginnote Info: Margin note 5.17 is on absolute page 6 on input line 2
 49.
 Package marginnote Info: right page because not two side mode on input line 249
 .
 Package marginnote Info: xpos seems to be 99.58464pt on input line 249.
-
-Overfull \hbox (3.63455pt too wide) in paragraph at lines 242--250
-|[]\TU/LinLibertine_R.otf(0)/m/n/10.95 Qiong Hu, Amir Mehdizadeh, Nasrin Mohabb
-ati Kalejahi, Mohammad Ali Alamdar Yazdi, $[]$,
- []
-
-[5]
-Package marginnote Info: Margin note 6.1 is on absolute page 6 on input line 25
-2.
+Package marginnote Info: Margin note 5.18 is on absolute page 6 on input line 2
+50.
+Package marginnote Info: right page because not two side mode on input line 250
+.
+Package marginnote Info: xpos seems to be 99.58464pt on input line 250.
+Package marginnote Info: Margin note 5.19 is on absolute page 6 on input line 2
+51.
+Package marginnote Info: right page because not two side mode on input line 251
+.
+Package marginnote Info: xpos seems to be 99.58464pt on input line 251.
+Package marginnote Info: Margin note 5.20 is on absolute page 6 on input line 2
+52.
 Package marginnote Info: right page because not two side mode on input line 252
 .
 Package marginnote Info: xpos seems to be 99.58464pt on input line 252.
-Package marginnote Info: Margin note 6.2 is on absolute page 6 on input line 25
-3.
+Package marginnote Info: Margin note 5.21 is on absolute page 6 on input line 2
+53.
 Package marginnote Info: right page because not two side mode on input line 253
 .
 Package marginnote Info: xpos seems to be 99.58464pt on input line 253.
-Package marginnote Info: Margin note 6.3 is on absolute page 6 on input line 25
-6.
-Package marginnote Info: right page because not two side mode on input line 256
+ [5]
+Package marginnote Info: Margin note 6.1 is on absolute page 6 on input line 25
+7.
+Package marginnote Info: right page because not two side mode on input line 257
 .
-Package marginnote Info: xpos seems to be 99.58464pt on input line 256.
+Package marginnote Info: xpos seems to be 99.58464pt on input line 257.
+Package marginnote Info: Margin note 6.2 is on absolute page 6 on input line 25
+8.
+Package marginnote Info: right page because not two side mode on input line 258
+.
+Package marginnote Info: xpos seems to be 99.58464pt on input line 258.
+Package marginnote Info: Margin note 6.3 is on absolute page 6 on input line 25
+9.
+Package marginnote Info: right page because not two side mode on input line 259
+.
+Package marginnote Info: xpos seems to be 99.58464pt on input line 259.
+Package marginnote Info: Margin note 6.4 is on absolute page 6 on input line 26
+0.
+Package marginnote Info: right page because not two side mode on input line 260
+.
+Package marginnote Info: xpos seems to be 99.58464pt on input line 260.
+Package marginnote Info: Margin note 6.5 is on absolute page 6 on input line 26
+7.
+Package marginnote Info: right page because not two side mode on input line 267
+.
+Package marginnote Info: xpos seems to be 99.58464pt on input line 267.
+Package marginnote Info: Margin note 6.6 is on absolute page 7 on input line 26
+8.
+Package marginnote Info: right page because not two side mode on input line 268
+.
+Package marginnote Info: xpos seems to be 99.58464pt on input line 268.
  [6]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 273.
+Package marginnote Info: Margin note 7.1 is on absolute page 7 on input line 27
+1.
+Package marginnote Info: right page because not two side mode on input line 271
+.
+Package marginnote Info: xpos seems to be 99.58464pt on input line 271.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 288.
  [7]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 273.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 288.
  (./Miao_Cai_CV_Chinese.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 273.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 273.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 288.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 288.
 Package rerunfilecheck Info: File `Miao_Cai_CV_Chinese.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 273.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 288.
  ) 
 Here is how much of TeX's memory you used:
- 28769 strings out of 492956
- 550568 string characters out of 6136893
- 633942 words of memory out of 5000000
- 32502 multiletter control sequences out of 15000+600000
- 537338 words of font info for 77 fonts, out of 8000000 for 9000
+ 29562 strings out of 492956
+ 566181 string characters out of 6136893
+ 682152 words of memory out of 5000000
+ 33270 multiletter control sequences out of 15000+600000
+ 538430 words of font info for 81 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  52i,11n,84p,561b,443s stack positions out of 5000i,500n,10000p,200000b,80000s
 
