@@ -23,7 +23,7 @@
 % DOCUMENT LAYOUT
 \usepackage[usenames,dvipsnames]{xcolor}
 \usepackage{geometry} 
-\geometry{a4paper, left=30mm, right=18mm,top=20mm, bottom=20mm}
+\geometry{a4paper, left=30mm, right=16mm,top=18mm, bottom=18mm}
 %, marginparsep=7pt, marginparwidth=.6in
 \setlength\parindent{0in}
 \usepackage{soul}
@@ -62,7 +62,7 @@
 
 
 % ---- CUSTOM COMMANDS
-\chardef\&="E050
+%\chardef\&="E050
 \newcommand{\html}[1]{\href{#1}{\scriptsize\textsc{[html]}}}
 \newcommand{\pdf}[1]{\href{#1}{\scriptsize\textsc{[pdf]}}}
 \newcommand{\doi}[1]{\href{#1}{\scriptsize\textsc{[doi]}}}
@@ -82,8 +82,10 @@
 \newcommand{\fzxbs}{\CJKfamily{MyCJKfzxbs}}
 
 \sectionfont{\fzxbs\bfseries\upshape\Large}
-\subsectionfont{\fzxbs\bfseries\scshape\normalsize} 
-\subsubsectionfont{\fzxbs\bfseries\upshape\large} 
+\subsectionfont{\fzxbs\bfseries\scshape\normalsize\underline} 
+%\subsubsectionfont{\fzxbs\bfseries\upshape\large} 
+\titlespacing{\section}{0pt}{-15pt}{-2ex}
+\titlespacing{\section}{0pt}{0pt}{0ex}
 %\titleformat{\section}[block]{\LARGE\bfseries}{Sec.\arabic{section}}{1em}{Hello: }[]
 %\titleformat{\subsection}[block]{\Large\itshape\mdseries}{\arabic{section}.\arabic{subsection}}{1em}{}[]
 
@@ -106,10 +108,10 @@ pdfproducer={http://nitens.org/taraborelli/cvtex}
 
 % DOCUMENT
 \begin{document}
-	{\LARGE {\fzxbs 蔡苗}}\\
+	{\LARGE {\fzxbs 蔡苗}}\vspace{0.3cm}
 	
 	\begin{minipage}[b]{0.65\linewidth}
-		美国圣路易斯大学\\
+		博士研究生， 美国圣路易斯大学\\
 		公共卫生与社会正义学院\\
 		流行病与生物统计系
 	\end{minipage}
@@ -131,7 +133,23 @@ pdfproducer={http://nitens.org/taraborelli/cvtex}
 	出生日期: $1993$年$7$月$14$日---中国湖北省武汉市
 	%\hrule
 	
-	
+	\section*{学术影响}
+	\begin{itemize}[leftmargin=0ex,itemsep=0ex]
+		\item \textbf{研究产出}: 
+		\begin{minipage}[t]{0.9\linewidth}
+			17篇SCI/SSCI期刊研究论文（5篇第一/通讯作者, Q1=3, Q2=1, Q3=1）\\
+			14篇中文核心期刊研究论文（5篇第一/通讯作者）\\
+			1篇专著章节
+		\end{minipage}
+		
+		\item \textbf{研究项目}: 
+		\begin{minipage}[t]{0.9\linewidth}
+			参与多个NIH R01，VA HSR\&D，中国和美国国家自然科学基金，国家和地方卫健委的研究项目。总项目金额超过200万美元和200万人民币。
+		\end{minipage}
+
+		
+		\item \textbf{学术影响}: 总被引: 165; $\,$ H-指数: 7; $\,$ I10-指数: 5 （截止于\today）。
+	\end{itemize}
 	
 	\section*{研究领域}
 	贝叶斯统计, 可靠性理论， 临床流行病学， 健康经济学， 因果推断
@@ -151,25 +169,19 @@ pdfproducer={http://nitens.org/taraborelli/cvtex}
 		\item \years{2019 -- 2020}美国退伍军人事务部圣路易斯分部，临床流行病学研究中心 \emph{生物统计研究员}
 		\item \years{2017 -- 2019}圣路易斯大学公共卫生与社会正义学院(美国国家自然科学基金资助) \emph{研究助理 }
 		\item \years{2016}湖北武汉雕龙数据科技有限公司 \emph{数据科学家}
-		\item \years{2014}湖北省卫生与计划生育委员会 \emph{实习科员}
+		%\item \years{2014}湖北省卫生与计划生育委员会 \emph{实习科员}
 	\end{itemize}
 	
 	%%\hrule
 	\section*{编程技能}
 	\begin{itemize}[leftmargin=0ex,itemsep=0ex, label={}]
-		\item \years{R}每日R使用者，熟练使用: \texttt{tidyverse}, \texttt{data.table}, \texttt{shiny}, \texttt{brms}$\dots$
+		\item \years{R}每日R使用者，熟练使用: \texttt{tidyverse}, \texttt{data.table}, \texttt{shiny}, \texttt{stan}, \texttt{INLA}, $\dots$
 		
 		\item \years{SAS}美国退伍军人事务部全国超过20亿门诊和住院病人病历数据的处理和统计建模
 		
 		\item \years{Python}运用常见包进行机器学习和深度学习：\texttt{pandas}, \texttt{pyspark}, \texttt{dask}, \texttt{h2o}, \texttt{tensorflow}$\dots$
 		
 		\item \years{SQL}超过20亿条美国退伍军人事务部门诊和住院病历首页数据管理、数据清洗和整合
-		
-		\item \years{Stan \& JAGS}使用吉布斯抽样和汉密尔顿蒙特卡洛模拟进行贝叶斯统计推断
-		
-		\item \years{INLA}运用集成嵌套拉普拉斯近似进行贝叶斯空间统计模型
-		
-		\item \years{GeoDA} 空间统计建模: Moran's I, 空间滞后/误差模型
 		
 		%\years{STATA}Econometric analysis\\
 		\item \years{Stata \& SPSS}计量经济和统计建模，指导研究生和入门水平的研究人员
@@ -225,6 +237,10 @@ pdfproducer={http://nitens.org/taraborelli/cvtex}
 	%\hrule
 	\section*{参与的研究项目}
 	\begin{enumerate}[leftmargin=0ex,itemsep=0ex]
+		\item \years{2021--25}\emph{美国国立卫生研究院 NIH R01 } ``Characterize the Joint Effect of PM$_2.5$ and its Components on Risk of Health Outcomes". PI: Ziyad Al-Aly. 2021 -- 2025. 
+		
+		\item \years{2021--24}\emph{美国退伍军人事务部VA's Health Services Research and Development Service } ``Comparative Effectiveness and Safety of Newer and Older Antihyperglycemic Medications". PI: Ziyad Al-Aly. 2021 -- 2024. 
+		
 		%\years{2019 -- 2021}\emph{美国退伍军人事务部 Department of Veteran Affair's Health Services Research and Development Service (HSR $\&$ D)} Cause-specific mortality among users of Proton Pump Inhibitors. PI: Dr. Ziyad Al-Aly\\% 项目批号PPO 19-017-2
 		\item \years{2017--19}\emph{美国国家自然科学基金(National Science Foundation, NSF) } ``GOALI/Collaborative Research: Human Maintenance - A Prognostics Framework to Model Changes in Drivers' Safety Performance and Optimize Dispatching Policies". 项目批号1635927，资助金额31万美元
 		
@@ -266,7 +282,7 @@ pdfproducer={http://nitens.org/taraborelli/cvtex}
 		
 		\item Xie, Y., Bowe, B., Yan, Y., \textbf{Cai, M.}, Al-Aly, Z.$^\ast$ (2020) ``\ul{County-level Contextual Characteristics and Disparities in Life Expectancy}", \emph{Mayo Clinic Proceedings}. Forthcoming. (SCI Q1, IF: 7.091, rank: 12/160)
 		
-		\item Bowe, B., Artimovich, E., Xie, Y., Yan, Y., \textbf{Cai, M.}, Al-Aly, Z.$^\ast$ (2020) ``\ul{Integrative Non-linear Exposure-Response Model for Estimation of Burden of Chronic Kidney Disease Attributable to Ambient Fine Particulate Matter Air Pollution}", \emph{BMJ Global Health}. DOI: \href{https://doi.org/10.1136/bmjgh-2019-002063}{10.1136/bmjgh-2019-002063}. 
+		\item Bowe, B., Artimovich, E., Xie, Y., Yan, Y., \textbf{Cai, M.}, Al-Aly, Z.$^\ast$ (2020) ``\ul{The global and national burden of chronic kidney disease attributable to ambient fine particulate matter air pollution: a modelling study}", \emph{BMJ Global Health}. DOI: \href{https://doi.org/10.1136/bmjgh-2019-002063}{10.1136/bmjgh-2019-002063}. 
 		
 		\item Boakye, E.A., Osazuwa-Peters, N., Chen, B., \textbf{Cai, M.}, Tobo, B.B., Challapalli, S.D., Buchanan, P. and Piccirillo, J.F.$^\ast$ (2020). ``\ul{Multilevel correlates of and development of a nomogram for in-hospital mortality among hospitalized head and neck cancer patients}", \emph{JAMA Otolaryngology-Head \& Neck Surgery}. DOI: \href{https://doi.org/10.1001/jamaoto.2020.0132}{10.1001/jamaoto.2020.0132}. (SCI Q1, IF: 3.502, rank: 1/42).
 		
@@ -367,15 +383,15 @@ pdfproducer={http://nitens.org/taraborelli/cvtex}
 	
 	\subsection*{已投稿论文}
 	\begin{enumerate}[leftmargin=0ex,itemsep=1ex]
-		\item \textbf{Cai, M.}, Xie, Y., Bowe, B., Yan, Y., Al-Aly, Z. ``\ul{Trends in Rates of Lower Extremity Amputation and Contributing Factors Among Veterans in the United States, 2008-2018}, 已投稿至\emph{JAMA Internal Medicine}. (SCI Q1, IF: 20.768, rank: 6/160)
+		\item \textbf{Cai, M.}, Xie, Y., Bowe, B., Yan, Y., Al-Aly, Z.$^\ast$ ``\ul{Trends in Rates of Lower Extremity Amputation and Contributing Factors Among Veterans in the United States, 2008-2018}, 已投稿至\emph{JAMA Internal Medicine}. (SCI Q1, IF: 20.768, rank: 6/160)
 		
-		\item \textbf{Cai, M.}, Hu, Q., Mehdizadeh, A., Alamdar Yazdi, M., Vinel, A., Davis, K., Megahed, F., Rigdon, S.$^\ast$. ``\ul{Modeling safety-critical events using trucking naturalistic driving data: A driver-centric hierarchical framework for data analyses}", 已投稿至\emph{Analytic Methods in Accident Research}. (SSCI Q1, IF: 9.333, rank: 4/164)
+		\item \textbf{Cai, M.}, Hu, Q., Mehdizadeh, A., Alamdar Yazdi, M., Vinel, A., Davis, K., Megahed, F., Rigdon, S.E.$^\ast$ ``\ul{Modeling safety-critical events using trucking naturalistic driving data: A driver-centric hierarchical framework for data analyses}", 已投稿至\emph{Analytic Methods in Accident Research}. (SSCI Q1, IF: 9.333, rank: 4/164)
 		
 		\item \textbf{Cai, M.}, Hu, Q., Mehdizadeh, A., Alamdar Yazdi, M., Vinel, A., Davis, K., Megahed, F., Rigdon, S.$^\ast$. ``Modeling Recurrent Safety-critical Events among Commercial Truck Drivers: A Bayesian Hierarchical Jump Power Law Process". 已投稿至\emph{Journal of the American Statistical Association}. (SCI Q1, IF: 3.412, rank: 5/123)
 		
-		\item \textbf{Cai, M.}, Yang, R., Yang, S., Zheng, T., Dong, G., Lin, H., Rigdon, S., Xian, H., Hinyard, L., Xaverius, P., Burroughs, T., Liu, E., Jansson, D., Zhang, B.$^\ast$, Qian, Z.$^\ast$. ``\ul{Association between maternal physical exercise and the risk of preterm birth: A case-control study in Wuhan, China}", 已投稿至\emph{Annals of Epidemiology}. (SCI Q2, IF: 2.55, rank: 62/186)
+		\item \textbf{Cai, M.}, Yang, R., Yang, S., Zheng, T., Dong, G., Lin, H., Rigdon, S., Xian, H., Hinyard, L., Xaverius, P., Burroughs, T., Liu, E., Jansson, D., Zhang, B.$^\ast$, Qian, Z.$^\ast$ ``\ul{Association between maternal physical exercise and the risk of preterm birth: A case-control study in Wuhan, China}", 已投稿至\emph{Annals of Epidemiology}. (SCI Q2, IF: 2.55, rank: 62/186)
 		
-		\item Lin, X., Johnston, K., \textbf{Cai, M.$^*$}. ``\ul{Medical consortium and hospital effciency: Evidence from China}", 已投稿至\emph{International Journal of Integrated Care}. (SSCI Q2, IF: 2.489, rank: 22/82)
+		\item Lin, X., Johnston, K., \textbf{Cai, M.}$^*$ ``\ul{Medical consortium and hospital efficiency: Evidence from China}", 已投稿至\emph{International Journal of Integrated Care}. (SSCI Q2, IF: 2.489, rank: 22/82)
 		
 		\item Xiaojun Lin, Jeremy C. Green, Hong Xian, \underline{Miao Cai}, Julia Skrzypek, Hongbing Tao$^\ast$. ``Holiday and weekend effects on mortality for acute myocardial infarction in Shanxi, China from 2014 to 2017", 第一轮返修\emph{International Journal of Public Health}. (SSCI Q2, IF: 2.373, rank: 42/164).
 	\end{enumerate}
